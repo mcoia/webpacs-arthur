@@ -1,0 +1,121 @@
+<!--{toplogo}-->
+
+<!--{patron}-->
+<!--{logout}-->
+
+<center>
+<TABLE width="570">
+
+<FORM METHOD=POST>
+<!--{iferrmsg}-->
+<FONT COLOR=RED SIZE=+2><EM>
+<!--{iferrmsgisPIN}-->
+<!--{newpinmsg}-->
+<!--{else}-->
+<!--{errmsg}-->
+<!--{xif}-->
+</EM></FONT><br />
+<!--{xif}-->
+<!--{enterinfo}-->
+
+<table width="60%" ALIGN="center" border="0" cellspacing="0" cellpadding="2">
+<tr>
+<td valign="top" width="1%">
+
+<TABLE>
+<!--{ifneedpatronname}-->
+<TR><TD WIDTH=1%></TD><TD class="blurb">
+<!--{nameexample}-->
+</TD></TR><TR><TD class="blurb" width="1%" nowrap>
+<!--{nameprompt}-->
+</TD><TD>
+<!--{name}-->
+</TD></TR>
+<tr><td colspan="3"></td></tr>
+<!--{xif}-->
+<!--{ifneedpatronverify}-->
+<TR><TD width="1%"></TD><TD class="blurb">
+<!--{barcodeexample}-->
+</TD></TR>
+<TR><TD class="blurb" width="1%" nowrap>
+<!--{barcodeprompt}-->
+</TD><TD>
+<!--{barcode}-->
+</TD></TR>
+<!--{ifneedspin}-->
+<!--{iferrmsgisPIN}-->
+<TR><TD COLSPAN=2>
+<!--{newpinmsg}-->
+</TD></TR><TR><TD class="blurb" width="1%" nowrap>
+<!--{pin1prompt}-->
+</TD><TD>
+<!--{pin1}-->
+</TD></TR><TR><TD class="blurb" width="1%" nowrap>
+<!--{pin2prompt}-->
+</TD><TD>
+<!--{pin2}-->
+</TD></TR>
+<!--{else}-->
+<TR><TD></TD><TD class="blurb">
+<!--{pininstructions}-->
+</TD></TR><TR><TD class="blurb" width="1%" nowrap>
+<!--{pinprompt}-->
+</TD><TD>
+<!--{pin}-->
+</TD></TR>
+<!--{xif}-->
+<!--{xif}-->
+<!--{xif}-->
+<tr><td colspan="2">
+<br />
+<!--{submit}-->
+</td></tr>
+</TABLE>
+
+<td valign="top" align="right">
+<table width="200" border="0" cellspacing="0" cellpadding="2" bgcolor="#C2DBF8">
+  <tr> 
+    <td> 
+ 	  <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><font size="-1" face="Arial, Helvetica, sans-serif">Location Code Help</font></b><br />
+	  <p class="blurb"><font size="-2" face="Arial, Helvetica, sans-serif">
+  		&nbsp;&nbsp;&nbsp; For example, a student at Westminster College would type in <tt><font SIZE="-1" color="#CC0000">999999999WC</font></tt>.<br /></font></p>
+
+      <p><font size="-2" face="Arial, Helvetica, sans-serif">
+		&middot; Columbia College - <b>CC</b><br />
+		&middot; Lincoln University - <b>LU</b><br />
+		&middot; Missouri State Library - <b>M</b><br />
+		&middot; Stephens College - <b>SC</b><br />
+		&middot; Westminster College - <b>WC</b><br />
+		&middot; William Woods University - <b>WW</b></p>   
+
+	  <p><font size="-2" face="Arial, Helvetica, sans-serif"><b>
+		Please contact your library if you have any questions.</b></p>     
+	</td>
+  </tr>
+</table>
+</td>
+</tr>
+</table>
+
+</FORM>
+
+<TABLE WIDTH=100%>
+<TR><TD ALIGN="center">
+<a href="/search/"><img src="/screens/b_newsrch.gif" border="0" alt="[START OVER]"></a>
+</TD></TR>
+</TABLE>
+</td>
+
+<DIV ALIGN="center"><p>
+<font color="red"><b>
+Protect your privacy!</b><br />To prevent others (who use this PC after you) from seeing your personal library information,<br />
+please return to this page after viewing your record and click "log out."
+</font></p>
+<A HREF=/ TARGET=_parent><img src="/screens/logout.gif" alt="(LOG OUT)" border=0></A>
+</font>
+</DIV>
+
+<!--{botlogo}-->
+
+</BODY>
+</HTML>

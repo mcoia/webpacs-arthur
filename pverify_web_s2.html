@@ -1,0 +1,153 @@
+<!-- Arthur pverify_web_s2.html updated 071127 lee -->
+<!--{toplogo}-->
+<!--{patron}-->
+<!--{logout}-->
+<center>
+<form method="post" action=/patroninfo>
+<!--{iferrmsg}-->
+<font color="red" size="+2"><em>
+<!--{iferrmsgisPIN}-->
+<!--{newpinmsg}-->
+<!--{else}-->
+<!--{errmsg}-->
+<!--{xif}-->
+</em></font><br />
+<!--{xif}-->
+<!--{enterinfo}-->
+<table width="60%" align="center" border="0" cellspacing="0" cellpadding="2" summary="pverifyweb">
+<tr>
+<td valign="top" width="1%">
+<table summary="pverifyweb">
+<!--{ifneedpatronname}-->
+<tr>
+<td width="1%"></td>
+<td class="blurb">
+<!--{nameexample}-->
+</td>
+</tr>
+<tr>
+<td class="blurb" width="1%" nowrap="nowrap">
+<!--{nameprompt}-->
+</td>
+<td>
+<!--{name}-->
+</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+</tr>
+<!--{xif}-->
+<!--{ifneedpatronverify}-->
+<tr>
+<td width="1%"></td>
+<td class="blurb">
+<!--{barcodeexample}-->
+</td>
+</tr>
+<tr>
+<td class="blurb" width="1%" nowrap="nowrap">
+<!--{barcodeprompt}-->
+</td>
+<td>
+<!--{barcode}-->
+</td>
+</tr>
+<!--{ifneedspin}-->
+<!--{iferrmsgisPIN}-->
+<tr>
+<td colspan="2">
+<!--{newpinmsg}-->
+</td>
+</tr>
+<tr>
+<td class="blurb" width="1%" nowrap="nowrap">
+<!--{pin1prompt}-->
+</td>
+<td>
+<!--{pin1}-->
+</td>
+</tr>
+<tr>
+<td class="blurb" width="1%" nowrap="nowrap">
+<!--{pin2prompt}-->
+</td>
+<td>
+<!--{pin2}-->
+</td>
+</tr>
+<!--{else}-->
+<tr>
+<td></td>
+<td class="blurb">
+<!--{pininstructions}-->
+</td>
+</tr>
+<tr>
+<td class="blurb" width="1%" nowrap="nowrap">
+<!--{pinprompt}-->
+</td>
+<td>
+<!--{pin}-->
+</td>
+</tr>
+<!--{xif}-->
+<!--{xif}-->
+<!--{xif}-->
+<tr>
+<td colspan="2">
+<br />
+<!--{submit}-->
+</td>
+</tr>
+</table>
+</td>
+<td valign="top" align="right">
+<table width="200" border="0" cellspacing="0" cellpadding="2" bgcolor="#C2DBF8" summary="pverifyweb">
+<tr>
+<td>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<b><font size="-1" face="Arial, Helvetica, sans-serif">Location Code Help</font></b><br />
+</p>
+<p class="blurb">
+<font size="-2" face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp; 
+For example, a student at Westminster College would type in
+<tt><font size="-1" color="#CC0000">999999999WC</font></tt>.<br /></font>
+</p>
+<p>
+<font size="-2" face="Arial, Helvetica, sans-serif">
+&middot; Columbia College - <b>CC</b><br />
+&middot; Lincoln University - <b>LU</b><br />
+&middot; Missouri State Library - <b>M</b><br />
+&middot; Stephens College - <b>SC</b><br />
+&middot; Westminster College - <b>WC</b><br />
+&middot; William Woods University - <b>WW</b></font>
+</p>
+<p>
+<font size="-2" face="Arial, Helvetica, sans-serif">
+<b>Please contact your library if you have any questions.</b>
+</font>
+</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</form>
+<table width="570" summary="pverifyweb">
+<tr>
+<td align="center">
+<a href="/search/"><img src="/screens/b_newsrch.gif" border="0" alt="[START OVER]" /></a>
+</td>
+</tr>
+</table>
+<div align="center">
+<p>
+<font color="red"><b>Protect your privacy!</b><br />
+To prevent others (who use this PC after you) from seeing your personal library information,<br />
+please return to this page after viewing your record and click "log out."</font>
+</p>
+<a href="/" target="_parent"><img src="/screens/logout.gif" alt="(LOG OUT)" border="0" /></a>
+</div>
+<!--{botlogo}-->
+</center>
