@@ -325,7 +325,9 @@ BUT_Z39_ANOTHER=/screens/b_z39ano.gif
 BUT_Z39SEARCH=/screens/b_z3950srch.gif
 
 # ICONS
-ICON_856LINK=<img src="/screens/b_856link.gif" alt="Electronic Resources" border="0"/>
+ICON_856LINK=<img src="/screens/b_856link.gif" alt="Electronic Resources" border="0"/>
+
+ICON_856LINK_S6=Missouri State Library Resource
 #ICON_962LINK 	Bibliographic 962 link in a brief citation
 #ICON_BIB_PAGING_CAPTION 	Record Display Options
 ICON_BIB_PAGING_NEXT=<img src="/screens/b_nextpage.gif" alt="Next Page" border="0"/>
