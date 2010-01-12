@@ -312,14 +312,14 @@ unavailable { } */
 .bibScreen { border: hidden; margin: 0px; }
 .bibWidgit { }
 .bibBookingsHeader { }
-.bibItems { border: hidden; margin: 0px; }
+.bibItems { border: hidden; margin-top:1em;}
 .bibItems, .bibItemsHeader, .bibLinks { 
 		border-collapse: collapse; 
 		border-bottom: solid 1px #ccc;
 		border-right: solid 1px #ccc;
 }
 bibItemsEny { }
-.bibItemsHeader { background-color: #BFD0F7; font-weight: normal; }
+.bibItemsHeader { background-color: #BFD0F7; font-weight: normal;}
 bibItemsLabel { }
 .bibDetail { border: hidden; margin: 0px; }
 
