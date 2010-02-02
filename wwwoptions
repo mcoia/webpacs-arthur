@@ -38,8 +38,7 @@ CLEAR_PRIVATE_INFO=1
 # INSERTTAG_HTML=
 INSERTTAG_INHEAD=<script type="text/javascript" src="/screens/brief.js"></script><!--[if lte IE 6]><link rel="stylesheet" media="all" type="text/css" href="/screens/ie_styles.css" /><![endif]-->
 # RESOURCETABLE=valign="top" rowspan="2"|cellpadding="0" cellspacing="0" border="0"|Related Resources
-SSLPORT=80:443:arthur.lso.umsystem.edu:arthur.mobius.umsystem.edu|80:443:arthur.missouri.edu:arthur.mobius.umsystem.edu|2082:444:arthur.lso.umsystem.edu:arthur.mobius.umsystem.edu|2082:444:arthur.missouri.edu:arthur.mobius.umsystem.edu
-# SSLPORT=80:443|2083:7878
+SSLPORT=80:443:arthur.missouri.edu:arthur.mobius.umsystem.edu|2082:444:arthur.missouri.edu:arthur.mobius.umsystem.edu
 STATGROUP=login
 STYLESHEET=/screens/arthur_styles.css
 STYLESHEET2=/screens/arthur_styles_s2.css
