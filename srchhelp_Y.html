@@ -94,7 +94,7 @@ function killScope(string) {
    FinalURL= killScope(FinalURL); // drop the scope because INNReach doesn't like scopes
    FinalURL= replace(FinalURL,"NOSRCH","SEARCH"); // the modify search screen doesn't make sense without this
 if (cSRCH != -1) {
-   document.write(' Try your search again in MOBIUS Union Catalog <a href="' + FinalURL + '"><img src="/screens/b_srchmobi.gif" border="0" alt=" Search MOBIUS "></a><p>');
+   document.write('<div id="innreachButton"> Try your search again in MOBIUS Union Catalog <a href="' + FinalURL + '"><img src="/screens/b_srchmobi.gif" border="0" alt=" Search MOBIUS "></a></div><p>');
 }
 
 // -->
