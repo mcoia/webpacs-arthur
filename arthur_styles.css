@@ -283,3 +283,7 @@ td.odd { background:#E2E2E2; }
 /* for browse entries */
 tr.odd { background:#E2E2E2; }
 /*tr.highlight {background:#FFFFDF;}*/
+
+/* for INN-Reach button */
+
+#innreachButton {margin-top:1em;}
