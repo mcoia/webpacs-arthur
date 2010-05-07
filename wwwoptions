@@ -394,7 +394,9 @@ LOC_csiii=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Stacks.asp "ta
 LOC_csvii=http://www.ccis.edu/Offices/Library/FloorPlans/Location-VerticalFile.asp "target=_blank"
 LOC_cscvi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Video.asp "target=_blank"
 LOC_csdvd=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Video.asp "target=_blank"
-
+#ENCORE
+
+PATFEEDS_MT=205.227.91.122
 
 
 
