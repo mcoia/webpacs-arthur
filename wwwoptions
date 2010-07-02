@@ -70,8 +70,8 @@ SORT_ITEMS=true
 # SUPPRESS_CARD=
 
 #   INN-REACH OPTIONS
-INNREACH=<br /><img src="/screens/b_srchmobi.gif" border=0 alt="(Search MOBIUS Union Catalog)">@mobius.umsystem.edu(X=X*;Y=Y*;a=a;c=c;d=d;e=e;f=c;g=g;i=i;m=d;o=o;p=p;r=r;s=s;t=t)<br />
-@mobius.missouri.edu(X=X*;Y=Y*;a=a;c=c;d=d;e=e;f=c;g=g;i=i;m=d;o=o;p=p;r=r;s=s;t=t)<br />
+INNREACH=<br /><img src="/screens/b_srchmobi.gif" border=0 alt="(Search MOBIUS Union Catalog)">@mobius.umsystem.edu(X=X*;Y=Y*;a=a;c=c;d=d;e=e;f=c;g=g;i=i;m=h;o=o;p=p;r=r;s=s;t=t)<br />
+@mobius.missouri.edu(X=X*;Y=Y*;a=a;c=c;d=d;e=e;f=c;g=g;i=i;m=h;o=o;p=p;r=r;s=s;t=t)<br />
 #The spaces at the beginning of the previous 2 lines are crucial.
 
 #   LANGUAGE HANDLING OPTIONS
@@ -394,9 +394,9 @@ LOC_csiii=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Stacks.asp "ta
 LOC_csvii=http://www.ccis.edu/Offices/Library/FloorPlans/Location-VerticalFile.asp "target=_blank"
 LOC_cscvi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Video.asp "target=_blank"
 LOC_csdvd=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Video.asp "target=_blank"
-#ENCORE
-
+#ENCORE
 PATFEEDS_MT=205.227.91.122
+
 
 
 
