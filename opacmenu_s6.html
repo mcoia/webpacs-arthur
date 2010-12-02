@@ -1,156 +1,103 @@
-<!-- Arthur opacmenu_s6.html updated 080319 lee -->
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-us" xml:lang="en-us">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Missouri State Library Catalog</title>
-<meta name="description" content=
-"The on-line public access catalog for the Missouri State Library." />
-<meta name="keywords" content=
-"Missouri State Library, library, libraries, librarians, card catalog, catalog, Arthur, online catalog, mobius" />
-<meta http-equiv="Refresh" content="300;URL=http://arthur.missouri.edu/search" />
-</head>
-<body link="#003399" vlink="#003399" alink="#003399" style="background-color:#FFFFFF; color: #000000; 
-margin-left:0px; margin-top: 0px">
-<!--{toplogo}-->
-<!--{patron}-->
-<!--{logout}-->
-<br />
-<center>
-<form name="SearchForm" target="_parent" action="/search/Y" method="get" id="SearchForm">
-<table style="border:0px; padding:1px; width:570px; background-color:#dddddd; 
-font-family:Arial, Helvetica, sans-serif;" cellspacing="0" summary="quicksrch">
-<tr bgcolor="#004499">
-<td colspan="5">
-<table style="border: 0px; padding: 0px; width:100%; font-family:Arial, Helvetica, sans-serif;" summary="quicksrch">
-<tr>
-<td style="color:#ffffff; font-weight:bold; align:left;" colspan="2">Quick Search &nbsp; 
-<a href="/screens/tips_s6.html#quicksearch" style="color: #ffffff; font-size: 70%;">search tips</a>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td style="text-align:right; white-space:nowrap; font-size:55%; color:#000000; font-weight:bold;"class="qs">
-Search by:
-</td>
-<td>
-<select name="searchtype">
-<option value="Y" selected="selected">Keyword</option>
-<option value="t">Title</option>
-<option value="a">Author</option>
-<option value="d">LC Subject</option>
-<option value="m">Children's Subject</option>
-<option value="s">Journal Title</option>
-<option value="e">Dewey Call Number</option>
-<option value="g">SuDoc/MoDoc Number</option>
-<option value="f">Local Call Number</option>
-<option value="i">Standard Number</option>
-</select>
-</td>
-<td style="text-align: right; white-space: nowrap; font-size: 55%;
-color: #000000; font-weight: bold;" class="qs">
-Search for:
-</td>
-<td>
-<input type="text" name="searcharg" maxlength="75" size="18" style="width: 180px;" /> 
-<input type="Hidden" name="searchscope" value="6" /> 
-<input type="Hidden" name="SORT" value="D" />
-</td>
-<td align="right">
-<input name="cmdSubmit" type="Submit" value="Search" />
-</td>
-</tr>
-</table>
-</form>
-</center>
-<script language="JavaScript" type="text/javascript">
-//<![CDATA[
-<!-- hide JavaScript
-document.SearchForm.searcharg.focus();
-document.SearchForm.searcharg.select();
-//-->
-//]]>
-</script>
-
-<!-- Guided Searches -->
-<center>
-<table style="width: 570px; border: 1px solid #004499; padding: 0px; 
-font-family:Verdana, Arial, Helvetica, sans-serif;" cellspacing="0" summary="guidesrch">
-<tr style="text-align:left; vertical-align:middle; background-color:#004499;">
-<td>
-<table style="width:100%; border:0px; padding: 2px; background-color:#ffffff;" 
-vspace="10" cellspacing="0" summary="guidesrch">
-<tr style="width:100%; vertical-align:top; background-color:#004499;" colspan="3">
-<td style="color: #ffffff; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:bold;">
-Guided Searches
-</td>
-<td></td>
-<td></td>
-</tr>
-<tr style="font-size:80%; align: left; vertical-align:top;">
-<td width="260">
-<p>
-<a href="/search~S6/Y" style="text-decoration:none; font-weight:bold;">KEYWORD</a>
-&nbsp; search for a word or words...
-</p>
-<p>
-<a href="/search~S6/t" style="text-decoration:none; font-weight:bold;">TITLE</a>
-&nbsp; search for a word or words in a title...
-</p>
-<p>
-<a href="/search~S6/a" style="text-decoration:none; font-weight:bold;">AUTHOR</a>
-&nbsp; search for a specific author, editor, composer, or organization...
-</p>
-<p>
-<a href="/search~S6/q" style="text-decoration:none; font-weight:bold;">AUTHOR/TITLE</a>
-&nbsp; search for an author and a title...
-</p>
-</td>
-<td width="6">
-&nbsp;
-</td>
-<td width="304">
-<p>
-<a href="/search~S6/s" style="text-decoration:none; font-weight:bold;">JOURNAL, MAGAZINE &amp; NEWSPAPER</a>
-&nbsp; search for a journal, magazine or newspaper title...
-</p>
-<p>
-<a href="/search~S6/d" style="text-decoration:none; font-weight:bold;">SUBJECT (Library of Congress)</a>
-&nbsp; search using Library of Congress Subject Headings...
-</p>
-<p>
-<a href="/search~S6/m" style="text-decoration:none; font-weight:bold;">SUBJECT (Children's)</a>
-&nbsp; search using children's literature subjects...
-</p>
-<p>
-<a href="/search~S6/n" style="text-decoration:none; font-weight:bold;">NUMBERS</a>
-&nbsp; search by call number or other number...
-</p>
-</td>
-</tr>
-<tr style="font-size:80%;">
-<td colspan="3">
-<center>
-<p>
-<a href="/search_s6/h" style="text-decoration:none; font-weight: bold;">MISSOURI STATE GOVERNMENT PUBLICATIONS</a> 
-&nbsp;<br />search for only Missouri State Government Publications...
-</p>
-</center>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td></td>
-</tr>
-</table>
-</center>
-<!--{botlogo}-->
-<br />
-<br />
-</body>
-</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- Rel 2009B Example Set -->
+<!-- This File Last Changed: 11 June 2010 -->
+<head>
+<title>Missouri State Library Catalog</title>
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+<link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
+<script type="text/javascript">/* <![CDATA[ */
+function iiiSearchValidate() {
+	try{
+	  if (document.getElementById('search').searcharg.value==null||document.getElementById('search').searcharg.value=="") {
+		return false;
+		}
+	}
+	catch(err) {
+	}
+  return true;
+}
+
+function iiiDoSubmit_1()
+{
+//getFormHandleForm() is in common.js
+var obj = getFormHandleForm(1);
+if(iiiSearchValidate()){
+obj.submit();
+}
+}
+/* ]]> */
+</script>
+</head>
+<body>
+<!--{toplogo}-->
+<div class="pageContentInner mainSearch">
+
+<h1 class="accessibleAddInfo">Search</h1>
+
+<div id="accessibleForm" class="form1Part">
+<div class="browseSearchtool">
+<form action="/search/" method="get" name="search" id="search" onSubmit="return iiiSearchValidate();">
+<input type="hidden" id="iiiFormHandle_1">
+
+<!-- Optional legend:
+<fieldset>
+<legend>Type the search term you want to find.</legend>-->
+<div class="formEntryArea">
+<label for="searchtype" class="accessibleAddInfo">Search type</label>
+<select name="searchtype" id="searchtype">
+<option value="X" selected="selected">Keyword</option>
+<option value="t">Title</option>
+<option value="s">Journal Title</option>
+<option value="a">Author</option>
+<option value="d">Subject</option>
+<option value="y">Resource Name</option>
+</select>
+<!--{nosort}-->
+<label for="searcharg" class="accessibleAddInfo">Search term</label>
+<input maxlength="75" name="searcharg" size="20" >
+<label for="scope" class="accessibleAddInfo">Location</label>
+<!--{scope}-->
+<span class="nowrap formButtonArea">
+
+  <!--{submit}-->
+
+<input type="hidden" id="iiiFormHandle_1"/>
+<a href="#" onclick="iiiDoSubmit_1();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
+
+<input type="submit" class="submitHidden">
+
+</span>
+</div><!-- formEntryArea -->
+<!--</fieldset> optional-->
+</form>
+</div><!-- browseSearchtool -->
+</div><!-- form1Part -->
+
+<div class="mainMenuContent">
+<div class="mainMenuContentLeft">
+<img src="/screens/main.jpg" height=249 width=355>
+</div>
+<div class="mainMenuContentRight">
+<ul>
+<li><a href="[encore IP/iii/encore]">Search Encore</a></li>
+<li><a href="/iii/calendar/month">Program Calendar</a></li>
+<li><a href="/ftlist">Featured Lists</a></li>
+<li><a href="/rpro">Research Pro</a></li>
+<li><a href="/search/y">Find e-resources</a></li>
+<li><a href="/illb">Interlibrary Loan</a></li>
+<li><a href="[WebPAC IP:2090]">KidsOnline</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--pageContentInner -->
+
+<!--{botlogo}-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].searcharg.focus(); }
+catch(err) {}
+//--><!]]></script>
+
+</body>
+</html>
