@@ -290,6 +290,11 @@ tr.odd { background:#E2E2E2; }
 
 /*Texting Feature Style */
 
+#smsfeatures {
+    text-align:center;
+    margin:2em;
+}
+
 #info, #sms {
        border:1px solid #36647b;
        position:absolute;
