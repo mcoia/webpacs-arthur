@@ -100,7 +100,10 @@ TD.unauthTerm { } */
 .bibThumbnails { }
 .bibTOC { }
 .bibXML { }
-.bibWidgit { }
+.bibWidgit { }
+
+#encoreLink img {border-style:none;}
+
 
 /***********************************************************************************/ 
 /* BRIEF CITATION DISPLAY CLASSES */ 
