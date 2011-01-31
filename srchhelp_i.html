@@ -1,54 +1,75 @@
-<!-- Arthur srchhelp_i.html updated 080331 lee -->
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>ARTHUR/ Arthur Library Catalog</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="Refresh" content="300;URL=http://arthur.missouri.edu/search-----&gt;" />
-</head>
-<body bgcolor="#FFFFFF" text="#000000" link="#003399" vlink="#003399" alink=
-"#003399" onload=
-"document.forms[0].SEARCH.focus(); document.forms[0].SEARCH.select();">
-<!--{toplogo}-->
-<!--{patron}-->
-<!--{logout}-->
-<center>
-<h3 align="center">ISBN/ISSN and Other Number Searches</h3>
-<div style="width:570px; text-align:left;">
-Type the <b>ISBN/ISSN, LC Card No., MUSIC, ETC. NUMBER</b> you want,
-then press <b>&lt;Enter&gt;</b> or click <b>Submit Search</b>
-</div>
-<center>
-<form method="get" action="/search/i">
-<p>
-<input type="text" name="SEARCH" maxlength="60" size="48" /><br />
-<input type="submit" value="Submit Search" onfocus="setFocus()" style="text-align:center;" />
-</p>
-</form>
-</center>
-<div style="width:570px; text-align:left;">
-Type as much or as little of the <b>ISBN/ISSN, MUSIC, ETC. NUMBER</b>
-as you want, for example
-</div>
-<table align="center" width="570" border="0" summary="srchtip">
-<!-- Begin Search Help Text -->
-<tr>
-<td>
-<ul class="noindent">
-<li>0525452710</li>
-<li>0084-2729</li>
-<li>65013742</li>
-<li>X 906 Everest</li>
-</ul>
-</td>
-</tr>
-</table>
-<div style="text-align: center;">
-<a href="/search/"><img src="/screens/b_newsrch.gif" border="0" alt="[START OVER]" /></a>
-</div>
-<!-- End Search Help Text -->
-</center><br />
-<!--{botlogo}-->
-</body>
-</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<!-- Rel 2009B Example Set -->
+<!-- This File Last Changed: 23 Mar 2010 -->
+<head>
+<title>Millennium Web Catalog</title>
+<script language="JavaScript">
+<!-- Hide the JS
+startTimeout(600000, "/");
+// -->
+
+</script>
+<noscript>
+<meta http-equiv="Refresh" content="600;URL=/" />
+</noscript>
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+<link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
+</head>
+<body>
+<!--{toplogo}-->
+<div class="pageContentInner">
+
+<h1 class="pageHeader">ISBN/ISSN Search</h1>
+
+<div id="accessibleForm" class="form2Part">
+<div class="formLeft">
+<form method="get">
+<fieldset>
+<!-- Optional legend:
+<legend>Type the standard number (ISBN or ISSN) you want to find, then press the Enter key or click Submit.</legend>
+-->
+<div class="formEntryArea">
+<span class="formLabel">
+<label for="SEARCH">Search for:</label>
+</span>
+<!--{search}-->
+</div>
+<div class="formEntryArea">
+<span class="formLabel">
+<label for="sortdropdown">Sort by:</label>
+</span>
+<!--{indexsort}-->
+</div>
+<div class="formEntryArea formScopeSearch">
+<span class="formLabel">
+<label for="searchscope">Search in the:</label>
+</span>
+<!--{scope}-->
+</div>
+
+<div class="formButtonArea">
+<!--{submit}-->
+</div>
+</fieldset>
+</form>
+</div><!--formLeft -->
+
+<div class="formRight">
+<p>Type the ISBN or ISSN as it appears. Punctuation and spaces can be omitted if desired. For example:</p>
+<ul>
+<li>0060254920</li>
+<li>0303-7207</li>
+</ul>
+</div><!--formRight -->
+
+</div><!--form2Part -->
+</div><!--pageContentInner -->
+
+<!--{botlogo}-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].SEARCH.focus(); }
+catch(err) {}
+//--><!]]></script>
+</body>
+</html>
