@@ -1,326 +1,106 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- Rel 2009B Example Set -->
+<!-- Updated: 09 June 2010 -->
+<head>
+<title>Millennium Web Catalog</title>
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+<link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
+<!--<link rel="stylesheet" type="text/css" href="/screens/stylesmain.css" > Un-comment to offer a larger logo on mainmenu.-->
+<script type="text/javascript">/* <![CDATA[ */
+function iiiSearchValidate() {
+	try{
+	  if (document.getElementById('search').searcharg.value==null||document.getElementById('search').searcharg.value=="") {
+		return false;
+		}
+	}
+	catch(err) {
+	}
+  return true;
+}
 
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-16147178-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
+function iiiDoSubmit_1()
+{
+//getFormHandleForm() is in common.js
+var obj = getFormHandleForm(1);
+if(iiiSearchValidate()){
+obj.submit();
+}
+}
+/* ]]> */
 </script>
-
-
-
-<html>
-
-  <head>
-
-    <title>Arthur Library Catalog Mainmenu</title>
-
-  </head>
-
-  <body link="032585" vlink="032585">
-
-    <p align="center"><IMG SRC="/screens/ArthurLogo1.gif" HEIGHT="200" WIDTH="300" ALT="" BORDER="0" ></p>
-
-
-
-<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="http://arthur.umsystem.edu/screens/arthur_styles.css">
-
-
-
-
-
-	<center>
-
-	  <form name="SearchForm" target="_parent" action="/search/Y" method="GET">
-
-	    <table border="0" cellspacing="0" cellpadding="1" width="570" bgcolor="#C2DBF8">
-
-	      <tr bgcolor="#032585"> 
-
-		    <td colspan="5" align="left"> 
-
-				<table border="0" cellpadding="0" cellpadding="0" width="100%">
-
-					<tr>
-
-						<td colspan="2">
-
-				      		<b><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Quick Search</font></b>
-
-					    </td>
-
-					</tr>
-
-				</table>
-
-			</td>
-
-		  </tr>
-
-	      <tr> 
-
-	        <td align="right" nowrap  class="qs"> 
-
-	          <font size="-2" face="Arial, Helvetica, sans-serif" color="#000000"><b> 
-
-	            Library: </b></font>
-
-	        </td>
-
-	        <td nowrap> 
-
-	          <select name="searchscope">
-
-	
-
-	            <option value="8" selected>
-
-					Arthur Library Catalog</option>
-
-	
-
-	            <option value="2" >
-
-					Columbia College</option>
-
-	
-
-	            <option value="1" >
-
-					Lincoln University</option>
-
-	
-
-	            <option value="6" >
-
-					Missouri State Library</option>
-
-	
-
-	            <option value="7" >
-
-					MoDOT Library</option>
-
-	
-
-	            <option value="3" >
-
-					Stephens College</option>
-
-	
-
-	            <option value="4" >
-
-					Westminster College</option>
-
-	
-
-	            <option value="5" >
-
-					William Woods University</option>
-
-	
-
-	          </select>
-
-	        </td>
-
-	        <td align="right" nowrap class="qs"> 
-
-	          <font size="-2" face="Arial, Helvetica, sans-serif" color="#000000"><b>Search by:</b></font>
-
-	        </td>
-
-	        <td> 
-
-	          <select name="searchtype">
-
-	
-
-	
-
-		<option value="Y"selected>Keyword</option>
-
-		
-
-	
-
-		<option value="t">Exact Title</option>
-
-		
-
-	
-
-		<option value="d">LC Subject</option>
-
-		
-
-	
-
-		<option value="a">Author</option>
-
-		
-
-	
-
-		<option value="s">Journal Title</option>
-
-		
-
-	
-
-		<option value="m">Kids Subject</option>
-
-		
-
-	
-
-	          </select>
-
-	        </td>
-
-	        <td><IMG SRC="/screens/shim.gif" HEIGHT="1" WIDTH="1" ALT="" BORDER="0" ></td>
-
-	      </tr>
-
-	      <tr> 
-
-	        <td align="right" nowrap class="qs"> 
-
-	          <font size="-2" face="Arial, Helvetica, sans-serif" color="#000000"><b>Search for:</b></font>
-
-	        </td>
-
-	        <td colspan="3"> 
-
-	          <input type="TEXT" name="searcharg" maxlength="75" size="36" style="width: 360px;">
-
-			  <input type="Hidden" name="SORT" value="D">
-
-	        </td>
-
-			<td align="right">
-
-			  <input name="cmdSubmit" type="Submit" value="Search" align="right">
-
-			</td>
-
-	      </tr>
-
-	      <tr bgcolor="#032585"> 
-
-		    <td colspan="5" align="left"></td>
-
-		  </tr>
-
-	    </table>
-
-	  </form>
-
-	</center>
-
-	
-
-
-
-
-
-
-
-<script language="JavaScript">
-
-<!-- hide JavaScript
-
-document.SearchForm.searcharg.focus();
-
-document.SearchForm.searcharg.select();
-
-//-->
-
-</script>
-
-
-
-
-
-  <center><strong><font face="Arial">The Arthur Library Catalog includes the collections of the following libraries:</font></strong></center></p>
-
-	
-
-    <div align="center">
-
-      <center>
-
-        <table border="0">
-
-          <tr>
-
-            <td width="300">
-
-              <ul>
-
-				<li><b><a href="/search~S2" style="text-decoration:none"><font face="arial" COLOR="032585"><b>Columbia College</b></font></a></li>
-
-                <li><b><a href="/search~S1" style="text-decoration:none"><font face="arial" COLOR="032585">Lincoln University</font></a></b></li>
-
-                <li><a href="/search~S6" style="text-decoration:none"><strong><font face="arial" COLOR="032585"><b>Missouri State Library</b></font></strong></a></li>
-
-                <li><a href="/search~S7" style="text-decoration:none"><strong><font face="arial" COLOR="032585"><b>MoDOT Library</b></font></a></li>
-
-              </ul>
-
-            </td>
-
-
-
-            <td valign="top" width="300">
-
-              <ul>
-
-				<li><b><a href="/search~S3" style=" text-decoration:none"><font face="arial" COLOR="032585"><b>Stephens College</b></font></a></li>
-
-                <li><a href="/search~S4" style="text-decoration:none"><font face="arial" COLOR="032585"><b>Westminster College</b></font></a></li>
-
-                <li><a href="/search~S5" style="text-decoration:none"><font face="arial" COLOR="032585"><b>William Woods University</b></font></a></li>               
-
-              </ul>
-
-            </td>
-
-          </tr> 
-
-	   	</table>
-
-	  </center>
-
-	    
-
-		<table align="center"><IMG SRC="/screens/catbar_blue.gif" HEIGHT="20" WIDTH="570" ALT="" BORDER="0" ></table> 
-
-		<table align="center"><b><font face="Arial" color="#032585"><a href="/search~" style="text-decoration:none">
-
-			All Arthur Library Collections</a></font></b></table>
-
-	    <table align="center"><b><font face="Arial" color="#032585"><a href="http://mobius.umsystem.edu/search~" style="text-decoration:none">
-
-			Search MOBIUS Union Catalog</a></font></b></table>
-
-		<table align="center"><b><font face="Arial" color="#032585"><A HREF="/screens/faq.html" style="text-decoration:none">
-
-		    FAQ</a></font></b></table>
-
-	    </table>
-
-     </div>  
-
-    </body>
-
-   </html>
-
+</head>
+<body>
+<!--{toplogo}-->
+
+<div class="pageContentInner mainSearch">
+
+<h1 class="accessibleAddInfo">Search</h1>
+
+<div id="accessibleForm" class="form1Part">
+<div class="browseSearchtool">
+<form action="/search/" method="get" name="search" id="search" onSubmit="return iiiSearchValidate();">
+
+
+<input type="hidden" id="iiiFormHandle_1">
+
+<!-- Optional legend:
+<fieldset>
+<legend>Type the search term you want to find.</legend>-->
+<div class="formEntryArea">
+<label for="searchtype" class="accessibleAddInfo">Search type</label>
+<select name="searchtype" id="searchtype">
+<option value="X" selected="selected">Keyword</option>
+<option value="t">Title</option>
+<option value="s">Journal Title</option>
+<option value="a">Author</option>
+<option value="d">Subject</option>
+<option value="y">Resource Name</option>
+</select>
+<!--{nosort}-->
+<label for="searcharg" class="accessibleAddInfo">Search term</label>
+<input maxlength="75" name="searcharg" size="20" >
+<label for="scope" class="accessibleAddInfo">Location</label>
+<!--{scope}-->
+<span class="nowrap formButtonArea">
+
+  <!--{submit}-->
+
+<input type="hidden" id="iiiFormHandle_1"/>
+<a href="#" onclick="iiiDoSubmit_1();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
+
+<input type="submit" class="submitHidden">
+
+</span>
+</div><!-- formEntryArea -->
+<!--</fieldset> optional-->
+</form>
+</div><!-- browseSearchtool -->
+</div><!-- form1Part -->
+
+<div class="mainMenuContent">
+<div class="mainMenuContentLeft">
+<img src="/screens/main.jpg" height=249 width=355>
+</div>
+<div class="mainMenuContentRight">
+<ul>
+<li><a href="[encore IP/iii/encore]">Search Encore</a></li>
+<li><a href="/iii/calendar/month">Program Calendar</a></li>
+<li><a href="/ftlist">Featured Lists</a></li>
+<li><a href="/rpro">Research Pro</a></li>
+<li><a href="/search/y">Find e-resources</a></li>
+<li><a href="/illb">Interlibrary Loan</a></li>
+<li><a href="[WebPAC IP:2090]">KidsOnline</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--pageContentInner -->
+
+<!--{botlogo}-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].searcharg.focus(); }
+catch(err) {}
+//--><!]]></script>
+</body>
+</html>
