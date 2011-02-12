@@ -20,57 +20,52 @@ startTimeout(600000, "/");
 <!--{toplogo}-->
 <div class="pageContentInner">
 
-<h1 class="pageHeader">Course Reserves</h1>
+<h1 class="pageHeader">Periodical Search</h1>
 
-<div id="accessibleForm" class="form1Part">
-
-
-<form method="get" id="search" name="search" action="/search/r">
-
+<div id="accessibleForm" class="form2Part">
+<div class="formLeft">
+<form method="get">
 <fieldset>
-
-<legend>Type as much of the course name as you want.  For example: nur, eng101, biology</legend>
-
-
+<!-- Optional legend:
+<legend>Type the title you want to find, then press the Enter key or click Submit.</legend>
+-->
 <div class="formEntryArea">
 <span class="formLabel">
-<label for="SEARCH">Course name:</label>
+<label for="SEARCH">Search for:</label>
 </span>
 <!--{search}-->
+</div>
+<div class="formEntryArea">
+<span class="formLabel">
+<label for="sortdropdown">Sort by:</label>
+</span>
+<!--{indexsort}-->
+</div>
+<div class="formEntryArea formScopeSearch">
+<span class="formLabel">
+<label for="searchscope">Search in the:</label>
+</span>
+<!--{scope}-->
 </div>
 
 <div class="formButtonArea">
 <!--{submit}-->
 </div>
-
 </fieldset>
 </form>
+</div><!--formLeft -->
 
-<hr />
+<div class="formRight">
+<p>Type as much or as little of the periodical title as you want. For example:</p>
+<ul>
+<li>national geographic</li>
+<li>national geo</li>
+<li>people</li>
+</ul>
+</div><!--formRight -->
 
-<form method="get" id="search" name="search" action="/search/p">
-
-<fieldset>
-
-<legend>Type as much of the instructor's name as you want.  For example: Smith or Smith, Brian</legend> 
-
-
-<div class="formEntryArea">
-<span class="formLabel">
-<label for="SEARCH">Instructor name:</label>
-</span>
-<!--{search}-->
-</div>
-
-<div class="formButtonArea">
-<!--{submit}-->
-</div>
-
-</fieldset>
-</form>
-    
-</div><!--form1Part -->
-</div><!--pageContentInner -->
+</div><!--form2Part -->
+</div><!-- pageContentInner -->
 
 <!--{botlogo}-->
 <script type="text/javascript"><!--//--><![CDATA[//><!--
