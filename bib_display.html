@@ -76,6 +76,16 @@
 <div class="bibDisplayItemsHeader"><h2>Copies</h2></div>
 <div class="bibDisplayItemsMain">
 <!--{items}-->
+
+<a href="#here" name=smsbutton id=smsbutton onClick="showsms();return false;">
+<div id="smsfeatures" class="resourceButton">
+    <span class="button">
+    <img src="/screens/ico_phone.gif" border=0 style="margin:0">
+        <span class="buttonText">Text item location</span>
+    </span>
+</div>
+</a>
+
     <!-- a quick script to hide the SMS menu if there are no items. same as the javascript in the SMS form, but it's really just to see if the items exist.  If they don't, we hide the buttons -->
        <script>
        var f = document.getElementById('bib_detail');
@@ -95,14 +105,11 @@
        }
 
     </script>
-<a href="#here" name=smsbutton id=smsbutton onClick="showsms();return false;">
-<div id="smsfeatures" class="resourceButton">
-    <span class="button">
-    <img src="/screens/ico_phone.gif" border=0 style="margin:0">
-        <span class="buttonText">Text item location</span>
-    </span>
-</div>
-</a>   
+       
+    <!-- just a placeholder for the sms form -->
+    <div id='sms' style="visibility:hidden;display:none">
+    </div>
+
 </div>
 </div>
 
