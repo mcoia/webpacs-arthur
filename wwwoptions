@@ -58,13 +58,13 @@ RESOURCETABLE=valign="top"|cellpadding="0" cellspacing="0" border="0"||Resources
 INSERTTAG_INHEAD=<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4"><link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print"><script type="text/javascript" src="/screens/bibdisplay.js"></script>
 INSERTTAG_HTML=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html lang="en">
 RIGHT_CELL_WIDTH=18|25
-#SSLPORT=80:443|2082:444
+SSLPORT=80:443:arthur.missouri.edu:arthur.mobius.umsystem.edu|2082:444:arthur.missouri.edu:arthur.mobius.umsystem.edu
 CUSTOM_MESSAGES=F
 STARTOVER=/search
 STATGROUP=login
 STYLESHEET=/screens/styles.css
 SUPPRESS_OPTION=STARTOVER,ANOTHER,NEWSRCH
-TIMEOUT=600;URL=/
+TIMEOUT=600;URL=http:/search----->
 TOPLOGO=@screens/toplogo.html
 TOPLOGO1=@screens/toplogo_s1.html
 TOPLOGO2=@screens/toplogo_s2.html
@@ -127,7 +127,12 @@ ICON_BUT_LIMAVAIL=<span class="button"><img src="/screens/ico_list.gif" alt=""><
 ICON_BUT_LIMIT=<span class="button"><img src="/screens/ico_gear.gif" alt=""><span class="buttonText">Limit/Sort Search</span></span>
 ICON_BUT_UNLIMAVAIL=<span class="button"><img src="/screens/ico_list.gif" alt=""><span class="buttonText">Show All</span></span>
 DISPLAY_245=atd
-EXTENDED=CT
+EXTENDED_t=LC
+EXTENDED_a=LC
+EXTENDED_c=L
+EXTENDED_g=L
+EXTENDED_e=L
+EXTENDED_f=L
 HEADING_LENGTH=100
 ICON_856LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Website
 ICON_962LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Digital Image
@@ -166,7 +171,7 @@ IMAGE_MATTYPEv=/screens/media_vhs.gif
 IMAGE_MATTYPEw=/screens/media_periodical.gif
 IMAGE_MATTYPEz=/screens/media_bestseller.gif
 IMAGE_MATTYPE2=/screens/media_article.gif
-INDEX_EXT=coi
+INDEX_EXT=cefg
 MEDIA=2
 NO_COPIES=Currently no copies available
 SORT_BROWSE=t:Title|a:Author|c:Year|r:Reverse Year|n:Call Number|m:Material Type
@@ -180,8 +185,8 @@ BIB_TOC_HEADER=<strong>Table of Contents</strong>
 ICON_BUT_MARC_DISPLAY=<span class="button"><img src="/screens/ico_marc.gif" alt=""><span class="buttonText">MARC Display</span></span>
 ICON_BUT_REGULAR_DISPLAY=<span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Regular Display</span></span>
 ICON_BUT_RTRNTB=<span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Return to Results</span></span>
-DISPLAY_856=z|true
-HOLDINGS_POS=atpR
+DISPLAY_856=z|false
+HOLDINGS_POS=atp
 #HOTLINK=i^020,c^09,n^505
 ICON_BIB_HOLDINGS_ITEMS=View Copies
 ICON_NEARBY=<img src="/screens/nearby.png" alt="Browse nearby" border="0">
@@ -191,7 +196,7 @@ ICON_BIB_PAGING_PREV=<span class="button"><img src="/screens/ico_previous.gif" a
 ICON_RECORDLINK=<a href="%s"><span class="button"><img src="/screens/ico_bookmark.gif" alt=""><span class="buttonText">Permanent Link</span></span></a>
 LINK856TEXT=Connect to
 MARC=yes
-SHOWOREC=no_cdate
+SHOWOREC=30
 TABLEPARAM_BIB=width="100%" cellpadding="0" cellspacing="0" border="0"|cellpadding="0" cellspacing="0" border="0" align="center"
 TABLEPARAM_BIB_DETAIL=width="100%" border="0" cellspacing="0" cellpadding="0"
 TABLEPARAM_BIB_HOLDINGS=width="100%" cellspacing="0" cellpadding="0"
@@ -251,18 +256,18 @@ ICON_BACK_TO_MYLISTS=<div onmousedown="this.className='pressedState';" onmouseou
 ICON_MYLISTS_RECORD=<span class="button"><img src="/screens/ico_list_add.gif" alt=""><span class="buttonText">Add to My Lists</span></span>
 
 # Saving and Exporting
-#BRIEF_EXPORT=c|a|t|p
+BRIEF_EXPORT=a:100|t:245|p:260|d|n|o|1
 ICON_BUT_BIBEXPORT=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Add to Bag</span></span>
 ICON_BUT_CLEAR_MARKED=<span class="button"><img src="/screens/ico_bag_clear.gif" alt=""><span class="buttonText">Empty Bag</span></span>
 ICON_BUT_EXPORT_MULTI=<span class="button"><img src="/screens/ico_disc.gif" alt=""><span class="buttonText">Export Saved</span></span>
 ICON_BUT_EXPORT_VIEW_SAVES=<span class="button"><img src="/screens/ico_bag.gif" alt=""><span class="buttonText">View Bag</span></span>
 ICON_BUT_VIEW_SAVES=<span class="button"><img src="/screens/ico_bag.gif" alt=""><span class="buttonText">View Bag</span></span>
-EMAILOP=From the library catalog|exporter|
-EXPORT_SELECT_TABLE=Sendto:browser,email,local|Format:full,brief,marc,procite,endnote
+EMAILOP=From the Arthur Library Catalog|exporter|
+EXPORT_SELECT_TABLE=Sendto:browser,email,local|Format:marc,full,brief
 XRECTYPE=boi
 
 #Requesting
-BIBREQUEST=true
+#BIBREQUEST=true
 ICON_BUT_REQUEST=<span class="button"><img src="/screens/ico_checkmark.gif" alt=""><span class="buttonText"><em>Request</em></span></span>
 ICON_BUT_REQUEST_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Available</span></span></div></div>
 ICON_BUT_REQUEST_MULTI=<span class="button"><img src="/screens/ico_request_multi.gif" alt=""><span class="buttonText">Request Saved</span></span>
@@ -270,8 +275,8 @@ ICON_BUT_REQUEST_RESET=<div onmousedown="this.className='pressedState';" onmouse
 ICON_BUT_REQUEST_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Selected</span></span></div></div>
 ICON_REQUEST=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Request
 #REQFILLTIME=14|<br>Request available in approximately %d days|<br>Current estimated availability: approximately %d days|<br>This material may be immediately available
-REQUEST=Hold this item|bib|ask|Y
-REQUEST_ARTICLE_IFCHKIN=Y
+REQUEST=|denyiflocalavail|ask|true1~
+#REQUEST_ARTICLE_IFCHKIN=Y
 #REQUEST_INSTRUCTION=Please enter any special instructions: 
 REQUEST_MULTI=Request All Items in Book Cart|bib|ask
 
@@ -305,21 +310,21 @@ ICON_SORTREQDATE=<div onmousedown="this.className='pressedState';" onmouseout="t
 MIN_PIN_LENGTH=6
 MODIFY_PFLDS=z
 #MODIFY_PFLDS=ahtpzHx
-MY_WEBPAC=false,2,0-255
+MY_WEBPAC=F,T
 NEWPIN_MSG=Please enter a Personal Identification Number (PIN)
-PATRON_FIELDS=n/a|a/a|t/a|F/43
+PATRON_FIELDS=n/a|a/a||F/43|
 #Note that in the PATRON_MSG web option you should replace z with the field tag used on your system for messages.
 #PATRON_MSG=z|Message from the library
 #PATRON_NOTICES=apz
-PIN_ALPHA_NUM=true
+PIN_ALPHA_NUM=false
 PIN_NUM_ONLY=false
-PIN_RESET=true
+PIN_RESET=false
 #PIN_RESET_EMAIL=Request to reset your library PIN|INSERT LIBRARY FROM EMAIL HERE|INSERT LIBRARY REPLY-TO EMAIL HERE
 PSTARTOVER=/search
 SEEPUDATE=true
 TABLEPARAM_PATDISP=border="0"|border="0"|border="0"
 TABLEPARAM_PATFUNC=border="0"|border="0"|border="0"
-TIMEOUT_POPUP=600
+#TIMEOUT_POPUP=600
 
 # My Millennium
 #BUT_LOGOUT=/screens/logout.gif
@@ -338,12 +343,45 @@ ICON_READING_HISTORY_OPTIN=<div onmousedown="this.className='pressedState';" onm
 ICON_READING_HISTORY_OPTOUT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Opt Out</span></span></div></div>
 ICON_READING_HISTORY_EXPORT=<span class="button"><img src="/screens/ico_disc.gif" alt=""><span class="buttonText">Export My Reading List</span></span>
 LOGGEDIN_MSG=<span class="loggedInMessage">You are logged in <span class="loggedInMoreInfo">to %s</span> as %s</span>
-NO_REVERIFY=acq,book,ill,media,mmf,req,wam,z39,mfrpro
+NO_REVERIFY=acq,book,req,ecr,z39
 PATRONVIEW_START=holds,ill,mylists,fines,chkouts,bookings,psearch,mffavs,readhist,patrate,patreview,programs,irnr
-PREF_SEARCHES=25|Y
+PREF_SEARCHES_1=10|Y
+PREF_SEARCHES_2=10|Y
+PREF_SEARCHES_3=20|Y
+PREF_SEARCHES_8=20|Y
+PREF_SEARCHES_10=20|Y
+PREF_SEARCHES_p51=10|Y
+PREF_SEARCHES_p52=10|Y
+PREF_SEARCHES_p53=10|Y
+PREF_SEARCHES_p54=20|Y
+PREF_SEARCHES_p55=20|Y
+PREF_SEARCHES_p56=20|Y
+PREF_SEARCHES_p59=10|Y
+PREF_SEARCHES_p60=20|Y
+PREF_SEARCHES_p61=20|Y
+PREF_SEARCHES_p62=10|Y
+PREF_SEARCHES_p63=20|Y
+PREF_SEARCHES_80=20|Y
+PREF_SEARCHES_81=20|Y
+PREF_SEARCHES_82=20|Y
+PREF_SEARCHES_83=20|Y
+PREF_SEARCHES_84=20|Y
+PREF_SEARCHES_101=10|Y
+PREF_SEARCHES_102=10|Y
+PREF_SEARCHES_103=20|Y
+PREF_SEARCHES_104=20|Y
+PREF_SEARCHES_109=20|Y
+PREF_SEARCHES_151=10|Y
+PREF_SEARCHES_152=10|Y
+PREF_SEARCHES_153=20|Y
+PREF_SEARCHES_154=20|Y
+PREF_SEARCHES_181=10|Y
+PREF_SEARCHES_182=10|Y
+PREF_SEARCHES_183=20|Y
+PREF_SEARCHES_186=20|Y
 PREFTEXT=Save as preferred search
 READING_HISTORY=optin|true|
-TOPLOGO_LOGGEDIN=Y
+TOPLOGO_LOGGEDIN=N
 
 # Patron Ratings
 ICON_PATRATE=<span class="button"><img src="/screens/patrate.gif" alt=""><span class="buttonText">My Ratings</span></span>
@@ -393,7 +431,7 @@ ILL_HOME=/screens/ill.html
 
 # INN-Reach
 IR_PLACEMENT=1
-#INNREACH=<img src="/screens/mobius_tiny.gif" alt="MOBIUS Catalog">@mobius.umsystem.edu
+INNREACH=<img src="/screens/mobius_tiny.gif" border=0 alt="(Search MOBIUS Union Catalog)">@mobius.umsystem.edu(X=X*;Y=Y*;a=a;c=c;d=d;e=e;f=c;g=g;i=i;m=h;o=o;p=p;r=r;s=s;t=t)
 
 # Media Management
 ICON_BUT_RET2CRS=<span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Return to Course</span></span>
@@ -427,7 +465,7 @@ BUT_FULL_TEXT=/screens/full_text.gif
 ICON_BUT_CLOSEFRAME=<span class="button"><img src="/screens/ico_x.gif" alt=""><span class="buttonText">Close Frame</span></span>
 ICON_BUT_RESOURCELINK=<div id="resourcelink"><span class="button"><img src="/screens/ico_globe.gif" alt=""><span class="buttonText">Other Resources</span></span></div>
 ICON_BUT_RET2RESOURCE=<div id="resourcelink"><span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Back</span></span></div>
-RESLINK=bibresourcetop|browseresourcetop||
+RESLINK=posttopitemmenu|posttopbrowsemenu,posttopexactmenu|r|p,r
 #WBHEADERTEXT=The following resources may provide additional information about<br>#HEADER#
 
 # Patron Feeds
@@ -533,3 +571,35 @@ ICON_VIEW_ADDITIONAL_SESSIONS=<span class="button"><span class="buttonText">View
 ICON_HIDE_ADDITIONAL_SESSIONS=<span class="button"><span class="buttonText">Hide Additional Sessions</span></span>
 ICON_PROGRAM_CAL=<span class="button"><img src="/screens/ico_calendar.gif" alt=""><span class="buttonText">Events Calendar</span></span>
 TABLEPARAM_PROG_SECTIONS=width="100%" border="0" cellspacing="0" align="center"
+
+# Location Links
+LOC_csrai=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Atlas.asp "target=_blank"
+LOC_cscdi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Audio.asp "target=_blank"
+LOC_csnti=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Audio.asp "target=_blank"
+LOC_csebi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-CRC.asp "target=_blank"
+LOC_csefi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-CRC.asp "target=_blank"
+LOC_csefp=http://www.ccis.edu/Offices/Library/FloorPlans/Location-CRC.asp "target=_blank"
+LOC_cseki=http://www.ccis.edu/Offices/Library/FloorPlans/Location-CRC.asp "target=_blank"
+LOC_csesi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-CRC.asp "target=_blank"
+LOC_cseti=http://www.ccis.edu/Offices/Library/FloorPlans/Location-CRC.asp "target=_blank"
+LOC_csevi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-CRC.asp "target=_blank"
+LOC_csjfi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-CRC.asp "target=_blank"
+LOC_csjni=http://www.ccis.edu/Offices/Library/FloorPlans/Location-CRC.asp "target=_blank"
+LOC_csegi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-ESL.asp "target=_blank"
+LOC_cssbi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Journals.asp "target=_blank"
+LOC_cssii=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Journals.asp "target=_blank"
+LOC_csnki=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Kits.asp "target=_blank"
+LOC_csfii=http://www.ccis.edu/Offices/Library/FloorPlans/Location-LAC.asp "target=_blank"
+LOC_csemi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Maps.asp "target=_blank"
+LOC_csmii=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Microform.asp "target=_blank"
+LOC_csqii=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Oversized.asp "target=_blank"
+LOC_cspci=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Professional.asp "target=_blank"
+LOC_csrri=http://www.ccis.edu/Offices/Library/FloorPlans/Location-ReadyReference.asp "target=_blank"
+LOC_csrmi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Reference.asp "target=_blank"
+LOC_csxii=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Reserve.asp "target=_blank"
+LOC_cscsi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Software.asp "target=_blank"
+LOC_csiii=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Stacks.asp "target=_blank"
+LOC_csvii=http://www.ccis.edu/Offices/Library/FloorPlans/Location-VerticalFile.asp "target=_blank"
+LOC_cscvi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Video.asp "target=_blank"
+LOC_csdvd=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Video.asp "target=_blank"
+
