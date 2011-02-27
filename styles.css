@@ -13,7 +13,7 @@ background dark gray: #4D4D4D
 text dark gray: #444444
 blue: #1367A7
 link blue: #014184
-link active: #7C14B8
+link active: #014184
 light blue: #E8F2F9
 yellow hover color: #FFFFE4
 Gray for borders and borders serving as horizontal rules: #D3D3D3
@@ -103,9 +103,9 @@ th { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; }
 
 /* traditional link colors are suggested for better usability */
 a:link { color: #014184; }
-a:active { color: #7C14B8; }
-a:visited { color: #7C14B8; }
-a:hover  { color: #7C14B8; }
+a:active { color: #014184; }
+a:visited { color: #014184; }
+a:hover  { color: #014184; }
 
 /* Section 2 */
 /* named styles listed in alphabetical order */
