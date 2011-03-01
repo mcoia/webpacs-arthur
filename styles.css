@@ -483,6 +483,10 @@ h1.browseSuperEntryTitle { font-size:1.1em; display:inline; }
 
 .checkinInfoData { height:auto; }
 
+.codeHelp {width:30%;}
+
+.codeHelp ul {margin-left:.5em; padding-left:.5em;}
+
 /*Relative position allows this bg color to show in older IE.*/
 .colorBar { background:#3B77B6; margin:0; position:relative;height:2em;color:#FFFFFF;font-weight:bold;}
 
