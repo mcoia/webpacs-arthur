@@ -8,10 +8,10 @@
 <link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
 <!--<link rel="stylesheet" type="text/css" href="/screens/stylesmain.css" > Un-comment to offer a larger logo on mainmenu.-->
 <script type="text/javascript" src="/screens/jquery.min.js"></script>
-<script type="text/javascript">
+	try{
 $(document).ready(function () {
 	$("span:contains(WebPAC PRO)").hide(); //Hide the iii footer
-
+		}
 	$('#searchtype').change(function(){
     	$("#exampleText").load("screens/" + this.value + ".inc");
 	});
@@ -41,11 +41,11 @@ obj.submit();
 </script>
 </head>
 <body>
-
 <!--{toplogo}-->
 <div class="miscButtons">
 <!--{logout}-->
 </div>
+<div class="pageContentInner mainSearch">
 
 <div class="pageContentInner mainSearch">
 
@@ -54,9 +54,12 @@ obj.submit();
 <div id="accessibleForm" class="form1Part">
 <div class="browseSearchtool">
 <form action="/search/" method="get" name="search" id="search" onSubmit="return iiiSearchValidate();">
+<option value="d">Subject</option>
+<option value="y">Resource Name</option>
 
 
 <input type="hidden" id="iiiFormHandle_1">
+<a href="#" onclick="iiiDoSubmit_1();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
 
 <!-- Optional legend:
 <fieldset>
@@ -79,6 +82,8 @@ obj.submit();
 <span class="nowrap formButtonArea">
 
   <!--{submit}-->
+</div><!-- browseSearchtool -->
+</div><!-- form1Part -->
 
 <input type="hidden" id="iiiFormHandle_1"/>
 <a href="#" onclick="iiiDoSubmit_1();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
@@ -93,6 +98,9 @@ obj.submit();
 </div><!-- form1Part -->
 <!--{botlogo}-->
 </div><!--pageContentInner -->
+try { document.forms[0].searcharg.focus(); }
+catch(err) {}
+//--><!]]></script>
 
 
 <script type="text/javascript"><!--//--><![CDATA[//><!--

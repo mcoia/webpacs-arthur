@@ -64,15 +64,8 @@ STARTOVER=/search
 STATGROUP=login
 STYLESHEET=/screens/styles.css
 SUPPRESS_OPTION=STARTOVER,ANOTHER,NEWSRCH
-TIMEOUT=600;URL=http:/search----->
 TOPLOGO=@screens/toplogo.html
-TOPLOGO1=@screens/toplogo_s1.html
-TOPLOGO2=@screens/toplogo_s2.html
-TOPLOGO3=@screens/toplogo_s3.html
-TOPLOGO4=@screens/toplogo_s4.html
-TOPLOGO5=@screens/toplogo_s5.html
-TOPLOGO6=@screens/toplogo_s6.html
-TOPLOGO7=@screens/toplogo_s7.html
+UPDATECIRC=true
 UPDATECIRC=true
 XSTARTOVER=/search
 
@@ -189,7 +182,7 @@ ICON_BIB_PAGING_PREV=<span class="button"><img src="/screens/ico_previous.gif" a
 ICON_RECORDLINK=<a href="%s"><span class="button"><img src="/screens/ico_bookmark.gif" alt=""><span class="buttonText">Permanent Link</span></span></a>
 LINK856TEXT=Connect to
 MARC=yes
-SHOWOREC=30
+LINK856TEXT=Connect to
 TABLEPARAM_BIB=width="100%" cellpadding="0" cellspacing="0" border="0"|cellpadding="0" cellspacing="0" border="0" align="center"
 TABLEPARAM_BIB_DETAIL=id='bib_detail' width="100%" border="0" cellspacing="0" cellpadding="0"
 TABLEPARAM_BIB_HOLDINGS=width="100%" cellspacing="0" cellpadding="0"
@@ -229,6 +222,8 @@ ICON_BUT_CARDFORM_LIN=<span class="button"><img src="/screens/ico_gear.gif" alt=
 CHECKIN_BGCOLOR=ARRIVED=#FFFFFF|EXPECTED=#FFFFFF|TO BIND/BOUND=#FFFFFF|LATE=#FFFFFF|OTHER=#FFFFFF
 CHECKIN_FONTCOLOR=ARRIVED=GREEN|EXPECTED=BLACK|TO BIND/BOUND=RED|LATE=BLACK|OTHER=BLACK
 CHECKIN_STATUS=ARRIVED=Here|EXPECTED=Coming soon|TO BIND/BOUND=Being bound|LATE=Late|Other=See staff
+DISPLAY_CHECKIN_856=z
+HOLDINGS_REQ=Deliver this article to me
 DISPLAY_CHECKIN_856=z
 HOLDINGS_REQ=Deliver this article to me
 SORT_ITEMS=true
@@ -336,47 +331,24 @@ ICON_READING_HISTORY_OPTIN=<div onmousedown="this.className='pressedState';" onm
 ICON_READING_HISTORY_OPTOUT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Opt Out</span></span></div></div>
 ICON_READING_HISTORY_EXPORT=<span class="button"><img src="/screens/ico_disc.gif" alt=""><span class="buttonText">Export My Reading List</span></span>
 LOGGEDIN_MSG=<span class="loggedInMessage">You are logged in <span class="loggedInMoreInfo">to %s</span> as %s</span>
-NO_REVERIFY=acq,book,req,ecr,z39
 PATRONVIEW_START=holds,ill,mylists,fines,chkouts,bookings,psearch,mffavs,readhist,patrate,patreview,programs,irnr
-PREF_SEARCHES_1=10|Y
-PREF_SEARCHES_2=10|Y
-PREF_SEARCHES_3=20|Y
-PREF_SEARCHES_8=20|Y
-PREF_SEARCHES_10=20|Y
-PREF_SEARCHES_p51=10|Y
-PREF_SEARCHES_p52=10|Y
-PREF_SEARCHES_p53=10|Y
-PREF_SEARCHES_p54=20|Y
-PREF_SEARCHES_p55=20|Y
-PREF_SEARCHES_p56=20|Y
-PREF_SEARCHES_p59=10|Y
-PREF_SEARCHES_p60=20|Y
-PREF_SEARCHES_p61=20|Y
-PREF_SEARCHES_p62=10|Y
-PREF_SEARCHES_p63=20|Y
-PREF_SEARCHES_80=20|Y
-PREF_SEARCHES_81=20|Y
-PREF_SEARCHES_82=20|Y
-PREF_SEARCHES_83=20|Y
-PREF_SEARCHES_84=20|Y
-PREF_SEARCHES_101=10|Y
-PREF_SEARCHES_102=10|Y
-PREF_SEARCHES_103=20|Y
-PREF_SEARCHES_104=20|Y
-PREF_SEARCHES_109=20|Y
-PREF_SEARCHES_151=10|Y
-PREF_SEARCHES_152=10|Y
-PREF_SEARCHES_153=20|Y
-PREF_SEARCHES_154=20|Y
-PREF_SEARCHES_181=10|Y
-PREF_SEARCHES_182=10|Y
-PREF_SEARCHES_183=20|Y
-PREF_SEARCHES_186=20|Y
 PREFTEXT=Save as preferred search
 READING_HISTORY=optin|true|
 TOPLOGO_LOGGEDIN=N
 LOGGEDIN_MSG=You are logged in %s as %s
 
+ICON_PAT_DELETE_MARKED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Delete Marked</span></span></div></div>
+ICON_READING_HISTORY=<span class="button"><img src="/screens/ico_clock.gif" alt=""><span class="buttonText">Reading History</span></span>
+ICON_READING_HISTORY_OPTIN=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Opt In</span></span></div></div>
+ICON_READING_HISTORY_OPTOUT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Opt Out</span></span></div></div>
+ICON_READING_HISTORY_EXPORT=<span class="button"><img src="/screens/ico_disc.gif" alt=""><span class="buttonText">Export My Reading List</span></span>
+LOGGEDIN_MSG=<span class="loggedInMessage">You are logged in <span class="loggedInMoreInfo">to %s</span> as %s</span>
+NO_REVERIFY=acq,book,ill,media,mmf,req,wam,z39,mfrpro
+PATRONVIEW_START=holds,ill,mylists,fines,chkouts,bookings,psearch,mffavs,readhist,patrate,patreview,programs,irnr
+PREF_SEARCHES=25|Y
+PREFTEXT=Save as preferred search
+READING_HISTORY=optin|true|
+TOPLOGO_LOGGEDIN=False
 
 # Patron Ratings
 ICON_PATRATE=<span class="button"><img src="/screens/patrate.gif" alt=""><span class="buttonText">My Ratings</span></span>
@@ -460,7 +432,6 @@ BUT_FULL_TEXT=/screens/full_text.gif
 ICON_BUT_CLOSEFRAME=<span class="button"><img src="/screens/ico_x.gif" alt=""><span class="buttonText">Close Frame</span></span>
 ICON_BUT_RESOURCELINK=<div id="resourcelink"><span class="button"><img src="/screens/ico_globe.gif" alt=""><span class="buttonText">Other Resources</span></span></div>
 ICON_BUT_RET2RESOURCE=<div id="resourcelink"><span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Back</span></span></div>
-RESLINK=posttopitemmenu|posttopbrowsemenu,posttopexactmenu|r|p,r
 #WBHEADERTEXT=The following resources may provide additional information about<br>#HEADER#
 
 # Patron Feeds
@@ -492,6 +463,20 @@ Z39MULTI=500:100
 
 # Partner
 ICON_BUT_RETHOME=<span class="button"><img src="/screens/ico_up.gif" alt=""><span class="buttonText">Home</span></span>
+ICON_PATFEED=<span class="button"><img src="/screens/ico_rss.gif" alt=""><span class="buttonText">My Record Feeds</span></span>
+PATFEED_CONFIG=Your Library Record News|Follow links to library record for full details.
+PATFEED_FINES_INCURRED_RECENTLY=You have new fines or fees
+PATFEED_HOLDS_READY=Your materials are ready to be picked up
+#PATFEED_IMAGE=/screens/rss.gif|Subscribe to a feed of your library record.|88|31
+PATFEED_ITEMS_BOOKED_TOMORROW=Materials booked tomorrow
+PATFEED_ITEMS_DUE_SOON=Materials due soon
+PATFEED_ITEMS_DUE_TODAY=Materials due today
+PATFEED_ITEMS_OVERDUE=Materials overdue
+PATFEED_ITEMS_RECALLED=Materials recalled
+PATFEED_LIVE_BOOKMARKS=T
+PATFEED_PROGRAM_SESSION_SOON=An event that you have registered for is coming up soon. Please log on to My Account for the event date, time and location.
+PATFEED_PROGRAM_SESSION_TOMORROW=An event that you have registered for is coming up tomorrow. Please log on to My Account for the event date, time and location.
+PATFEED_PROGRAM_SESSION_TODAY=An event that you have registered for is coming up today. Please log on to My Account for the event date, time and location.
 
 # AirPAC
 AIRPAC_PORT=6060
@@ -568,33 +553,72 @@ ICON_PROGRAM_CAL=<span class="button"><img src="/screens/ico_calendar.gif" alt="
 TABLEPARAM_PROG_SECTIONS=width="100%" border="0" cellspacing="0" align="center"
 
 # Location Links
-LOC_csrai=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Atlas.asp "target=_blank"
-LOC_cscdi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Audio.asp "target=_blank"
-LOC_csnti=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Audio.asp "target=_blank"
-LOC_csebi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-CRC.asp "target=_blank"
-LOC_csefi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-CRC.asp "target=_blank"
-LOC_csefp=http://www.ccis.edu/Offices/Library/FloorPlans/Location-CRC.asp "target=_blank"
-LOC_cseki=http://www.ccis.edu/Offices/Library/FloorPlans/Location-CRC.asp "target=_blank"
-LOC_csesi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-CRC.asp "target=_blank"
-LOC_cseti=http://www.ccis.edu/Offices/Library/FloorPlans/Location-CRC.asp "target=_blank"
-LOC_csevi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-CRC.asp "target=_blank"
-LOC_csjfi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-CRC.asp "target=_blank"
-LOC_csjni=http://www.ccis.edu/Offices/Library/FloorPlans/Location-CRC.asp "target=_blank"
-LOC_csegi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-ESL.asp "target=_blank"
-LOC_cssbi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Journals.asp "target=_blank"
-LOC_cssii=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Journals.asp "target=_blank"
-LOC_csnki=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Kits.asp "target=_blank"
-LOC_csfii=http://www.ccis.edu/Offices/Library/FloorPlans/Location-LAC.asp "target=_blank"
-LOC_csemi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Maps.asp "target=_blank"
-LOC_csmii=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Microform.asp "target=_blank"
-LOC_csqii=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Oversized.asp "target=_blank"
-LOC_cspci=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Professional.asp "target=_blank"
-LOC_csrri=http://www.ccis.edu/Offices/Library/FloorPlans/Location-ReadyReference.asp "target=_blank"
-LOC_csrmi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Reference.asp "target=_blank"
-LOC_csxii=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Reserve.asp "target=_blank"
-LOC_cscsi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Software.asp "target=_blank"
-LOC_csiii=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Stacks.asp "target=_blank"
-LOC_csvii=http://www.ccis.edu/Offices/Library/FloorPlans/Location-VerticalFile.asp "target=_blank"
-LOC_cscvi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Video.asp "target=_blank"
-LOC_csdvd=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Video.asp "target=_blank"
+# Patron Registration
+#SELFREG_ERROR_EMAIL=circadm|example@example.org|Self Registration Error|example@example.org
+#SELFREG_INFO_EMAIL=circadm|example@example.org|New Patron Registration|example@example.org
+#SELFREG_NAME_ORDER=1|2|3|,
+SELFREG_TEMPLATE=webpat
+TIMEOUT_SELFREG=600
+# My Federated Search (Research Pro or MetaFind)
+ICON_MFFAVS_HOME=<span class="button"><img src="/screens/ico_up.gif" alt=""><span class="buttonText">Home</span></span>
+ICON_MFFAVS_SEARCH=<span class="button"><img src="/screens/ico_magnifyingglass.gif" alt=""><span class="buttonText">Search</span></span>
+ICON_PAT_MFFAVS=<span class="button"><img src="/screens/ico_globe.gif" alt=""><span class="buttonText">My Research Pro</span></span>
+MFFAVS_CONFIRM=Your group, %s, has been saved successfully.
+MFFAVS_DENY=This function is not available. Please contact a librarian for further assistance.
+#MFFAVS_HOME=http://researchpro-[SITECODE]:[PORT]/iii/mfrpro-[SITECODE]/loadSearchPage.do?searchtype=simple&amp;searchpage=simple&amp;accountid=[ACCOUNT]&amp;accountpassword=[ACCOUNT]&amp;language=eng
+#MFFAVS_URL=true|[ACCOUNT]|[ACCOUNT]|/mfgo/http://researchpro-[SITECODE]:[PORT]/iii/mfrpro-[SITECODE]/search.do
+MFFAVS_ALL=TRUE
 
+# WebPAC Pro
+BROWSE50=true
+ICON_SPELLCHECK_MORE=<span class="spellcheckToolMore">more&nbsp;&raquo;</span>
+ICON_SPELLCHECK_SEARCH=<img src="/screens/ico_go.gif" class="button" border="0" alt="Search">
+INNOVATIVE_FOOTER=center|a
+SPELLCHECK=<span class="spellcheckTool">Did you mean %a? %s </span>
+
+# Research Pro
+#MF_BIBIMAGE=http://syndetics.com/index.aspx/?isbn=%s/SC.gif&amp;client=PUTACCOUNTHERE&amp;type=hw7|i|http://syndetics.com/index.aspx/?isbn=%s/SC.gif&amp;client=PUTACCOUNTHERE&amp;type=hw7
+#MF_BIBIMAGE=http://www.TheContentServer.com/bin/cntsvr.dll?GetImage&amp;SysID=PUTACCOUNTHERE&amp;CustID=PUTACCOUNTHERE&amp;ISBN=%s&amp;Type=S&amp;Return=0|I|http://www.TheContentServer.com/bin/cntsvr.dll?GetImage&amp;SysID=PUTACCOUNTHERE&amp;CustID=PUTACCOUNTHERE&amp;ISBN=%s&amp;Type=L&amp;Return=1
+MF_BOTLOGO=@screens/botlogo.html
+MF_EMAIL_SENDER=researchpro@iii.com
+MF_ICON_ADVANCED_SEARCH=Advanced Search
+MF_ICON_CLEAR=Clear Form
+MF_ICON_CLOSE=Close Window
+MF_ICON_DESELECTALL=Clear All
+MF_ICON_EMAIL=Email
+MF_ICON_HELP=Help
+MF_ICON_LOGOFFACCOUNT=Logout
+MF_ICON_MFFAVS_GROUP=Save Group
+MF_ICON_NEW_SEARCH=New Search
+MF_ICON_PATRON_REC=Return to Patron Record
+MF_ICON_PATSUBMIT=Submit
+MF_ICON_PREVSEARCH=Previous Search
+MF_ICON_PRINT=Print
+MF_ICON_RET2CAT=Back to Catalog
+MF_ICON_RETHOME=Home
+MF_ICON_SEARCH=Search Research Pro
+MF_ICON_SELECTALL=Select All
+MF_ICON_SIMPLE_SEARCH=Simple Search
+MF_ICON_STOP=Stop Search
+MF_ICON_UPDATELIST=Update List
+MF_ICON_VIEWSAVED=View Saved
+MF_RESULTSVIEW=tabbed,View Results Tabbed By Resource|standard,View All Results Interfiled
+MF_RETURN=true
+MF_RETURN_URL=http://researchpro-[SITECODE]:[PORT]/iii/mfrpro-[SITECODE]/loadSearchPage.do?searchtype=simple&amp;searchpage=simple&amp;accountid=[ACCOUNT]&amp;accountpassword=[ACCOUNT]
+MF_SEARCHINDEX=Keywords,Keywords|:CREATOR,Author|:TITLE,Title|:SUBJECT,Subject
+MF_STYLESHEET=/screens/styles.css
+MF_TOPLOGO=@screens/toplogo.html
+
+# Program Display
+PROG_AVS_TAG=PHJQIL
+PROGRAM_SECTION_FIELDS=Date/Time:VsT|Meets:Vss|Location:Fs285|Instructor:Vsn|Status:VsS
+ICON_BUT_PAT_PROGRAMS=<span class="button"><img src="/screens/ico_calendar.gif" alt=""><span class="buttonText">Library Events</span></span>
+ICON_BUT_PAT_SORTBYDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Date</span></span></div></div>
+ICON_BUT_PAT_SORTBYNAME=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Name</span></span></div></div>
+ICON_RET2PROG=<span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Return to Programs</span></span>
+ICON_REGISTER=<br><strong>Click to Register</strong>
+ICON_ADD_TO_WAITLIST=<br><strong>Add to Waitlist</strong>
+ICON_VIEW_ADDITIONAL_SESSIONS=<span class="button"><span class="buttonText">View Additional Sessions</span></span>
+ICON_HIDE_ADDITIONAL_SESSIONS=<span class="button"><span class="buttonText">Hide Additional Sessions</span></span>
+ICON_PROGRAM_CAL=<span class="button"><img src="/screens/ico_calendar.gif" alt=""><span class="buttonText">Events Calendar</span></span>
+TABLEPARAM_PROG_SECTIONS=width="100%" border="0" cellspacing="0" align="center"
