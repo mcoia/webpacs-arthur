@@ -431,7 +431,9 @@ table.browseResourceTable { border:0; }
 
 .browseSubEntryMedia { padding-bottom:.4em; }
 
-.browseSuperEntry  { background:#FFFFFF url('tile_browsesuperentry.jpg') repeat-x bottom left; border-bottom:1px solid #D3D3D3; margin:0; text-align:center; }
+.browseSuperEntry  { background:#FFFFFF url('tile_browsesuperentry.jpg') repeat-x bottom left; border-bottom:1px solid #D3D3D3; margin:0; text-align:center;}
+
+.browseSuperEntry td {font-weight: bold;}
 
 h1.browseSuperEntryTitle { font-size:1.1em; display:inline; }
 
@@ -969,6 +971,8 @@ margin:0 0 0 3px;
 padding:0;
 text-decoration:none;
 }
+
+.rrUserQuery {color:#457029;}
 
 .rssArea div, .rssArea span { padding:0; }
 
