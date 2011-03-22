@@ -658,6 +658,8 @@ div .confirmValue { padding-top:3px; }
 
 .indexList li {list-style-type:none;}
 
+.inlineBlock {display:inline-block; zoom: 1; *display: inline;}
+
 .itemSelect { width:50em; }
 
 .itemSelect br, .volumeSelect br { line-height:1px; }
