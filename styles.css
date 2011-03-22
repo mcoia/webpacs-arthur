@@ -741,7 +741,7 @@ padding:2px;
 
 /* .navigationRow select, .navigationrow option { position:absolute; right:24px; top:48px; } */
 
-.navigationRow select { font-size:.83333em; width:200px; }
+.navigationRow select { font-size:.83333em; /*width:200px; */}
 
 .pageContent { clear:both; }
 
