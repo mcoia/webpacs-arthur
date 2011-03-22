@@ -599,6 +599,10 @@ LOC_cscvi=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Video.asp "tar
 LOC_csdvd=http://www.ccis.edu/Offices/Library/FloorPlans/Location-Video.asp "target=_blank"
 
 
-#Encore
+# Encore
 PATFEEDS_MT=205.227.91.122
+
+# Scoping
+
+LOCKSCOPE=no
 
