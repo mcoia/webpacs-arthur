@@ -250,11 +250,11 @@ table.bibResourceTable { border:0; }
 
 .bibSearchToolMessage { margin-bottom:5px; }
 
-/*.bibSearchHistory, .resourceHistory { position:absolute; right:24px; top:36px; } */
+.bibSearchHistory, .resourceHistory { position:absolute; right:24px; top:36px; }
 
 .bibSearchHistory { font-size:0.83333em; }
 
-/*.bibSearchHistory select, .resourceHistory select  { width:200px; } */
+.bibSearchHistory select, .resourceHistory select  { width:200px; }
 
 .bibVol { margin:10px; }
 
@@ -658,8 +658,11 @@ div .confirmValue { padding-top:3px; }
 
 .indexList li {list-style-type:none;}
 
+<<<<<<< HEAD
+=======
 .inlineBlock {display:inline-block; zoom: 1; *display: inline;}
 
+>>>>>>> 2009
 .itemSelect { width:50em; }
 
 .itemSelect br, .volumeSelect br { line-height:1px; }
@@ -704,7 +707,7 @@ div .confirmValue { padding-top:3px; }
 
 .msg td { padding-top:3px; }
 
-.mobiusLogoSmall { position:absolute; right:0; top:20px; }
+.mobiusLogoSmall {float:right; margin-top:20px;}
 
 .mylistsSavePage { height:100%; width:100%; padding-bottom:0; padding-top:0; }
 
@@ -739,9 +742,9 @@ padding:2px;
 
 .navigationRow noscript h2, .bibSearchHistory noscript h2 { font-size:1em; margin:-3px 10px 0 0; color:#FF0000; }
 
-/* .navigationRow select, .navigationrow option { position:absolute; right:24px; top:48px; } */
+.navigationRow select, .navigationrow option { position:absolute; right:24px; top:48px; }
 
-.navigationRow select { font-size:.83333em; /*width:200px; */}
+.navigationRow select { font-size:.83333em; width:200px; }
 
 .pageContent { clear:both; }
 
@@ -1049,7 +1052,7 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 .topLinks a { float:right; }
 
-.topLogo { position:relative;}
+.topLogo { }
 
 .topLogoSmall {float:left;}
 
