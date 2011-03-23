@@ -387,7 +387,7 @@ h2.briefcitTitle { font-size:1em; display:inline; }
 
 .browsePager a:hover { background:#014184; color:#FFFFFF; }
 
-div.browseResourceTable { background:#FFFFFF url('tile_vgradient.jpg') repeat-x top left; border:0; margin:30px 10px 0 12px; padding:0; }
+div.browseResourceTable { background:#FFFFFF url('tile_vgradient.jpg') repeat-x top left; border:0; margin:30px 0 0 12px; padding:0; }
 
 .browseResourceTable { padding-top:5px; }
 
