@@ -494,7 +494,7 @@ h1.browseSuperEntryTitle { font-size:1.1em; display:inline; }
 .codeHelp ul {margin-left:.5em; padding-left:.5em;}
 
 /*Relative position allows this bg color to show in older IE.*/
-.colorBar { background:#3B77B6; margin:0; position:relative;height:2em;color:#FFFFFF;font-weight:bold;}
+.colorBar { background:#3b6b91; margin:0; position:relative;height:2em;color:#FFFFFF;font-weight:bold;}
 
 .colorBar a {color:#FFFFFF;text-decoration:none;float:right;margin:.3em .7em;}
 
@@ -1001,7 +1001,7 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 #searcharg { }
 
 /*Relative position allows this bg color to show in older IE.*/
-.searchNav { background:#3B77B6; margin:0; position:relative; }
+.searchNav { background:#3b6b91; margin:0; position:relative; }
 
 .searchNav a {color: #ffffff; font-weight:bold; text-decoration:none;}
 
@@ -1120,7 +1120,7 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 #topMyLibraryHeader { float:left; }
 
-div#searchNavMenu { clear:both; float:right; background:#3B77B6; width:100%; }
+div#searchNavMenu { clear:both; float:right; background:#3b6b91; width:100%; }
 
 /*Special treatment for IE6, using the JS-activated "li.over"*/
 #toplogoMoreNav li.over ul { margin:0; }
