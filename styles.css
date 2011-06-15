@@ -299,6 +299,8 @@ div.bookingsVerify { padding:0; margin-top:18px; }
 
 .briefcitActions { text-align:left; }
 
+.briefcitAddlCopies {color:#457029; font-size:1.2em; font-weight:bold;}
+
 .briefcitBookcartMark {  }
 
 .briefcitCell { background:#FFFFFF; border-bottom:1px solid #ECECEC; font-size:.9187em; }
