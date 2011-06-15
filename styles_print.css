@@ -2,11 +2,11 @@ a:link, a:visited {background:#FFF; color:#000; text-decoration:underline; font-
 
 #bibDisplayBody a:link, #bibDisplayBody a:visited, #formLinks a:link, #formLinks a:visited {background:transparent; color:#000; text-decoration:underline; font-weight:bold;}
   
-body { color:#000; background-color:#FFF; background-image:none; font-family:Times New Roman,Times,Georgia,serif; font-size:10pt; }
+body { color:#000; background-color:#FFF; background-image:none; font-family:Times New Roman,Times,Georgia,serif; font-size:13pt; }
 
 img { border:0; }
 
-td { color:#000; background-color:#FFF; background-image:none; font-family:Times New Roman,Times,Georgia,serif; font-size:10pt; }
+td { color:#000; background-color:#FFF; background-image:none; font-family:Times New Roman,Times,Georgia,serif; font-size:13pt; }
 
 table.browseScreen td { width:18%; }
 
@@ -38,9 +38,9 @@ table.browseScreen td { width:18%; }
 
 .bibDisplayItemsHeader h2 { color:#767C70; }
 
-th.bibItemsHeader { color:#000000; font-family:Times New Roman,Times,Georgia,serif; font-size:10pt; }
+th.bibItemsHeader { color:#000000; font-family:Times New Roman,Times,Georgia,serif; font-size:13pt; }
 
-#bibDisplayBody a:link, #bibDisplayBody a:visited { font-family:Times New Roman,Times,Georgia,serif; font-size:10pt; }
+#bibDisplayBody a:link, #bibDisplayBody a:visited { font-family:Times New Roman,Times,Georgia,serif; font-size:13pt; }
 
 .bibDisplayItemsHeader h2, .resourceDisplayLicenseHeader h2 { color:#767C70; }
 
@@ -48,7 +48,7 @@ th.bibItemsHeader { color:#000000; font-family:Times New Roman,Times,Georgia,ser
 
 .briefcitActions { display:none; }
 
-.briefcitCell { width:100%; }
+.briefcitCell { width:100%; border-bottom: 1px solid black;}
 
 .briefcitDetail a { background-color:transparent; }
 
@@ -58,7 +58,7 @@ th.bibItemsHeader { color:#000000; font-family:Times New Roman,Times,Georgia,ser
 
 .briefcitRow { margin:5px 0; }
 
-h2.briefcitTitle { font-size:10pt; }
+h2.briefcitTitle { font-size:13pt; }
 
 .briefcitDetailMain { width: 98%; float:left; }
 
@@ -86,7 +86,7 @@ h2.briefcitTitle { font-size:10pt; }
 
 .browsePager strong  {}
 
-.briefcitCell { font-size:10pt; }
+.briefcitCell { font-size:13pt; }
 
 .briefcitMedia { margin-top:20px; }
 
@@ -122,6 +122,6 @@ tr.patFuncHeaders { border-bottom:1px solid #888888; }
 
 .resourceDisplayContentMain { float:left; margin-left:1em; padding-left:4em; position:absolute; left:0; }
 
-.resourceDisplayBibs td, .resourceDisplayBibs th, .resourceLicenseHeader { font-family:Times New Roman,Times,Georgia,serif; font-size:10pt; }
+.resourceDisplayBibs td, .resourceDisplayBibs th, .resourceLicenseHeader { font-family:Times New Roman,Times,Georgia,serif; font-size:13pt; }
 
 .topLogoSmall img { border:0; height:.25in; width:1.75in; }
