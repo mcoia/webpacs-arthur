@@ -384,7 +384,7 @@ ICON_RATE_MY=<img src="/screens/rate_my.gif" border="0" width="15" height="14" a
 ICON_RATE_NEED=<img src="/screens/rate_need.gif" border="0" width="15" height="14" alt="Rate this material!" title="Rate this material!">
 ICON_RATE_NO=<img src="/screens/rate_no.gif" border="0" width="75" height="14" alt="No one has rated this material" title="No one has rated this material">
 ICON_RATE_PAD=<img src="/screens/rate_pad.gif" border="0" width="15" height="14" alt="Rated %d stars out of 5 based on %n ratings" title="Rated %d stars out of 5 based on %n ratings">
-#PATRATE=true
+PATRATE=true
 #PATREVIEW=1
 ICON_PATREVIEW=<span class="button"><img src="/screens/ico_review.gif" alt=""><span class="buttonText">My Reviews</span></span>
 ICON_PATREVIEW_ADD=<span class="button"><img src="/screens/ico_review_sm.gif" alt=""><span class="buttonText">Add a Review</span></span>
