@@ -959,19 +959,19 @@ table.reserveBibs { margin:25px 0 20px 15%; width:65%; }
 
 #bibDisplayBody .reviewLinks a:link, #bibDisplayBody .reviewLinks a:active, #bibDisplayBody .reviewLinks a:visited  { color:#369699; }
 
-.rightCol {
+#rightCol {
 font-size:15px;
 margin:0 20px;
 padding:0;
 }
 
-.rightCol li {
+#rightCol li {
 list-style-type:none;
 padding:4px 0;
 text-indent:-14px;
 }
 
-.rightCol li a:link, .rightCol li a:visited, .rightCol li a:active {
+#rightCol li a {
 color:#444444;
 margin:0 0 0 3px;
 padding:0;
