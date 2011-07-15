@@ -1,0 +1,14 @@
+.topLogo {
+    height:119px;
+}
+
+.topLogoSmall {
+    position: absolute;
+    left:0;
+}
+
+.arthurLogo {
+    width:250px;
+    margin-left:35%;
+    padding-top:5px;
+}
