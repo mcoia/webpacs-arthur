@@ -145,8 +145,8 @@ ICON_PAGING_NEXT=Next
 ICON_PAGING_PREV=Prev
 ICON_PROGRAM=<img src="/screens/media_program.gif" border="0" alt="Library Event">
 ICON_RESOURCE=<img src="/screens/media_resource.gif" alt="Internet Resource">
-ICON_SAVEALLPAGE=<span class="button"><img src="/screens/ico_bag_add.png" alt=""><span class="buttonText">Save All on Page</span></span>
-ICON_SAVEMARKED=<span class="button"><img src="/screens/ico_bag_add.png" alt=""><span class="buttonText">Save Marked for Print/Email</span></span>
+ICON_SAVEALLPAGE=<span class="button"><img src="/screens/ico_multirequest.png" alt=""><span class="buttonText">Save All on Page</span></span>
+ICON_SAVEMARKED=<span class="button"><img src="/screens/ico_checkmark_16px.png" alt=""><span class="buttonText">Save Marked for Print/Email</span></span>
 IMAGE_MATTYPE-=/screens/media_book.gif
 IMAGE_MATTYPEa=/screens/media_book.gif
 IMAGE_MATTYPEb=/screens/media_archive.gif
@@ -263,7 +263,7 @@ XRECTYPE=boi
 #BIBREQUEST=true
 ICON_BUT_REQUEST=<span class="button"><img src="/screens/ico_checkmark.png" alt=""><span class="buttonText">Request</span></span>
 ICON_BUT_REQUEST_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Available</span></span></div></div>
-ICON_BUT_REQUEST_MULTI=<span class="button"><img src="/screens/ico_request_multi.png" alt=""><span class="buttonText">Request Saved</span></span>
+ICON_BUT_REQUEST_MULTI=<span class="button"><img src="/screens/ico_target.gif" alt=""><span class="buttonText">Request Saved</span></span>
 ICON_BUT_REQUEST_RESET=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Reset Form</span></span></div></div>
 ICON_BUT_REQUEST_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Selected</span></span></div></div>
 ICON_REQUEST=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Request
