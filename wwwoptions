@@ -146,6 +146,7 @@ ICON_PAGING_PREV=Prev
 ICON_PROGRAM=<img src="/screens/media_program.gif" border="0" alt="Library Event">
 ICON_RESOURCE=<img src="/screens/media_resource.gif" alt="Internet Resource">
 ICON_SAVEALLPAGE=<span class="button"><img src="/screens/ico_multirequest.png" alt=""><span class="buttonText">Save All on Page</span></span>
+ICON_SAVEALLPAGE4=<span class="button"><img src="/screens/ico_multirequest.png" alt=""><span class="buttonText">Click Here to Save Displayed Results</span></span>
 ICON_SAVEMARKED=<span class="button"><img src="/screens/ico_checkmark_16px.png" alt=""><span class="buttonText">Save Marked for Print/Email</span></span>
 IMAGE_MATTYPE-=/screens/media_book.gif
 IMAGE_MATTYPEa=/screens/media_book.gif
