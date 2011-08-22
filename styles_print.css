@@ -96,9 +96,11 @@ h2.briefcitTitle { font-size:13pt; }
 
 .loggedInMessage { display:none; }
 
-.pageContentColumn {width:100%;}
+.minHeight {width:100%;}
 
-.pageNavColumn {display:none;}
+.pageContentColumn {width:100%; padding:0;}
+
+.pageNavColumn {display:none; border: 1px solid black;}
 
 .patActionsLinks, .patTop, .patFuncArea { outline:none; }
 
@@ -108,7 +110,7 @@ h2.briefcitTitle { font-size:13pt; }
 
 .patFunc td { width:auto; }
 
-table.patFunc { width:40em; font-size:90% }
+table.patFunc { font-size:80% }
 
 .patTop {margin:0; }
 
