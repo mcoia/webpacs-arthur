@@ -22,6 +22,15 @@ var encoreLink = '<a href="http://arthurencore.mobius.umsystem.edu/iii/encorecc/
 document.getElementById("encoreLink").innerHTML = encoreLink;
 }
 
+if (document.getElementById("recordnum")) {} else{
+// Get record number eg b number, g number, p number
+var searchTerm = document.getElementById("searcharg").value
+var encoreLink = '<a href="http://arthurencore.mobius.umsystem.edu/iii/encorecc/search/C__S'+searchTerm+'"><span class="button"><img src="/screens/ico_encore.png" alt=""><span class="buttonText">Search Encore</span></span></a>';
+$('.navigationRow form').prepend(encoreLink)
+}
+
+
+
 </script>
 
 <script type="text/javascript"> 
