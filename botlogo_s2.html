@@ -1,0 +1,80 @@
+<!-- begin botlogo.html file -->
+<!-- Rel 2009B Example Set -->
+<!-- Updated: Sept 2009 -->
+</div><!-- pageContent  -->
+<div style="clear:both"></div>
+<div id="botlogo">
+<p><strong>Arthur</strong> includes the collections of the following Central Missouri libraries:</p>
+<p><a href="/search~S2">Columbia College</a> | <a href="/search~S1">Lincoln University</a> | <a href="/search~S6">Missouri State Library</a> </p>
+<p><a href="/search~S7">MoDOT Library</a> | <a href="/search~S3">Stephens College</a> | <a href="/search~S4">Westminster College</a> | <a href="/search~S5">William Woods University</a></p>
+</div>
+</div><!-- fullPage -->
+</div><!-- min-height -->
+<script>
+
+if (!document.getElementById("recordnum")) {} else{
+// Get record number eg b number, g number, p number
+var ref = document.getElementById("recordnum").getAttribute("href");
+var str = ref.indexOf("=")
+var recno = ref.substr(str+1,8);
+var encoreLink = '<a href="http://arthurencore.mobius.umsystem.edu/iii/encorecc/record/C__R'+recno+'"><img src="/screens/b_encore.gif" alt="Search Encore"></a>';
+// Put link to Encore record on record page
+document.getElementById("encoreLink").innerHTML = encoreLink;
+}
+
+</script>
+
+<script type="text/javascript"> 
+<!--
+// Assign a className to style the user's terms in the header;
+var tableList = document.getElementsByTagName("table");
+browseScreenList =  new Array();
+for (var table = 0; table < tableList.length; table++) {
+    // Get the class
+	classAttrib = tableList[table].getAttribute("class");
+	// Hack for IE
+	if(classAttrib == null) { classAttrib = tableList[table].getAttribute("className") }
+	// Store the table if it holds the label for the OCLC #
+	if(classAttrib == "browseScreen")  {
+		var chgTitle = 1;
+	}
+    }
+var rrClass = "rrUserQuery";
+ 
+// If you also want to put the user's terms in the browser title bar, change these 3 variables;
+var lib_or_cat_name = "Arthur Catalog - "; // This is your library name or catalog name, and should match whatever currently appears in your browser's title bar;
+var title_suff = " search results for " // This text will appear in the title bar after the user's terms;
+ 
+// No need to edit beyond here;
+if (!document.getElementsByName('searcharg')[0]) {}
+else {
+	var rrForm = document.getElementsByName('searcharg')[0];
+	var termArr = [];
+	termArr[0] = "rrTerm1";
+	termArr[1] = "rrTerm2";
+	termArr[2] = "rrTerm3";
+	termArr[3] = "rrTerm4";
+	termArr[4] = "rrTerm5";
+	for (var i=0; i<3; i++) {
+		var termID = document.getElementById(termArr[i]);
+		if (!termID) {}
+		else {
+			termID.innerHTML = rrForm.value;
+			termID.className = rrClass;
+		}
+	}
+	for (var i=3; i<termArr.length; i++) {
+		var termID = document.getElementById(termArr[i]);
+		if (!termID) {}
+		else {
+			newval = rrForm.value.replace(/^\s+|\s+$/g,"");
+			newval = newval.replace(/\s/g," AND ");
+			termID.innerHTML = newval;
+			termID.className = rrClass;
+		}
+	}
+if (chgTitle == 1) { document.title = lib_or_cat_name + title_suff + "'" + rrForm.value + "'"; }
+}
+//-->
+</script> 
+<!-- end botlogo.html file -->
