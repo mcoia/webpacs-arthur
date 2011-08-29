@@ -24,6 +24,28 @@ startTimeout(600000, "/");
 
 <div id="accessibleForm" class="form1Part">
 
+<form method="get" id="search" name="search" action="/search/p">
+
+<fieldset>
+
+<legend>Type as much of the instructor's name as you want.  For example: Smith or Smith, Brian</legend> 
+
+
+<div class="formEntryArea">
+<span class="formLabel">
+<label for="SEARCH">Instructor name:</label>
+</span>
+<!--{search}-->
+</div>
+
+<div class="formButtonArea">
+<!--{submit}-->
+</div>
+
+</fieldset>
+</form>
+
+<hr />
 
 <form method="get" id="search" name="search" action="/search/r">
 
@@ -46,28 +68,9 @@ startTimeout(600000, "/");
 </fieldset>
 </form>
 
-<hr />
-
-<form method="get" id="search" name="search" action="/search/p">
-
-<fieldset>
-
-<legend>Type as much of the instructor's name as you want.  For example: Smith or Smith, Brian</legend> 
 
 
-<div class="formEntryArea">
-<span class="formLabel">
-<label for="SEARCH">Instructor name:</label>
-</span>
-<!--{search}-->
-</div>
 
-<div class="formButtonArea">
-<!--{submit}-->
-</div>
-
-</fieldset>
-</form>
     
 </div><!--form1Part -->
 </div><!--pageContentInner -->
