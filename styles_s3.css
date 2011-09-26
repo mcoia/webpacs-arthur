@@ -1,5 +1,13 @@
 body { font-size:95%; }
 
+.briefcitDetail, .briefcitAuthDetail {
+    width: 80%;
+}
+
+.briefcitJacket {
+    width:0px;
+}
+
 .topLogo {
     height:119px;
 }
