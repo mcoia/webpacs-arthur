@@ -218,7 +218,7 @@ table.bibItems { clear:both; }
 
 .bibRecordLink { padding:8px 0 8px 6px; }
 
-.bibResourceSidebar { background:#FFFFFF url('tile_vgradient.jpg') repeat-x top left; display:inline; float:right; width:192px; }
+.bibResourceSidebar { background:#FFFFFF url('tile_vgradient.jpg') repeat-x top left; display:inline; float:right; margin-right:10px; width:192px; padding-bottom:10px; }
 
 .bibResourceSidebar .button { margin:1% 3%; }
 
@@ -253,8 +253,6 @@ table.bibResourceTable { border:0; }
 .searchtool select, .searchtool input { line-height:1.2em; }
 
 .bibSearchToolMessage { margin-bottom:5px; }
-
-/*.bibSearchHistory, .resourceHistory { position:absolute; right:24px; top:36px; } */
 
 .bibSearchHistory { font-size:0.83333em; }
 
@@ -749,9 +747,7 @@ padding:2px;
 
 .navigationRow noscript h2, .bibSearchHistory noscript h2 { font-size:1em; margin:-3px 10px 0 0; color:#FF0000; }
 
-.navigationRow select, .navigationrow option { margin-top: 15px; }
-
-.navigationRow select { font-size:.83333em; /*width:200px; */}
+.navigationRow select { font-size:.83333em; width:200px; margin-top: 15px; }
 
 .pageContent { clear:both; }
 
