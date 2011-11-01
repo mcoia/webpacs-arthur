@@ -119,7 +119,7 @@ RELSEARCH=restable||<span class="button"><img src="/screens/ico_magnifyingglass.
 AUTHMSG=<h2 class="briefcitTitle"><em>%u</em> -- See %w <strong>%a</strong></h2><span class="authPublicNote">%p</span>|<h2 class="briefcitTitle">%u -- See Also %w %a </h2><span class="authPublicNote">%p</span>
 AUTHMSG_SR=athe later heading|bthe earlier heading|dthe full form of the heading|fa musical composition based on this work|gthe narrower term|hthe broader term
 BODYPARAM=bgcolor="#FFFFFF"
-BRIEF=A
+BRIEF=AK
 BROWSE_t=245/abhnp/0|240/afklmnopr/0|700/tmnr/0|970/t/0|/abhnpv/0
 BROWSE_HEADERS=Mark|Media
 ICON_BUT_BRIEF=<span class="button"><img src="/screens/ico_browse_brief.png" alt=""><span class="buttonText">Brief Display</span></span>
