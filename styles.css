@@ -95,6 +95,13 @@ strong .button { display:block; font-weight:normal; margin-top:15px; }
 
 .pageContent p { margin-left:20px; }
 
+.pageContentColumn {
+float:right;
+margin-left:1%;
+padding:1%;
+width:71%;
+}
+
 .pageContentInner p { margin-left:0px; }
 
 /* end status message area */
@@ -684,6 +691,22 @@ div .confirmValue { padding-top:3px; }
 
 .libinfoRight li {  }
 
+.linkBanner{ background: #3B77B6; margin:0; position:relative; padding: 0.5em 0; text-align:right;}
+
+.linkBanner a {color: #ffffff; font-weight:bold; text-decoration:none;}
+
+.linkBanner .navLeft {float: left;}
+
+.linkBanner. .navRight {float: right;}
+
+.linkBanner .navLeft ul li {margin-left: 0; margin-right:2em;}
+
+.linkBanner ul {list-style-type:none; margin: 0; padding: 0 1.2em;}
+
+.linkBanner ul li {display: inline; margin-left:2em;}
+
+/* #linkBannerMenu { margin:0; text-align:right; padding:.5em 0;} */
+
 .loggedInMessage { color:#999999; font-size:.8em; font-style:normal; float:right; margin:1px 5px 0 0; }
 
 .loggedInMoreInfo { display:none; position:absolute; top:-5000px; right:-5000px; }
@@ -958,6 +981,25 @@ table.reserveBibs { margin:25px 0 20px 15%; width:65%; }
 .reviewLinks { font-size:1em; margin:0 0 4px 8px; }
 
 #bibDisplayBody .reviewLinks a:link, #bibDisplayBody .reviewLinks a:active, #bibDisplayBody .reviewLinks a:visited  { color:#369699; }
+
+#rightCol {
+font-size:15px;
+margin:0 20px;
+padding:0;
+}
+
+#rightCol li {
+list-style-type:none;
+padding:4px 0;
+text-indent:-14px;
+}
+
+#rightCol li a {
+color:#444444;
+margin:0 0 0 3px;
+padding:0;
+text-decoration:none;
+}
 
 #rightCol {
 font-size:15px;
