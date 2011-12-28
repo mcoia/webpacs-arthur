@@ -34,6 +34,9 @@ b|H|||||b
 b|r|300|-6|Description||b|
 b|r|310|-6|Frequency||b|
 b|r|321|-6|Former Frequency||b|
+b|r|336||||b|
+b|r|337||||b|
+b|r|338||||b|
 b|r|350|-6|||b|
 b|r|362|-6|Publication History||b|
 b|r||-6|Descript.||b|
@@ -81,6 +84,7 @@ b|z|785.8|-6|Changed Back||b
 b|z||-6|Cont'd By||b|
 b|q||-6w|Related To||b|
 b|q|773|-7|Related To||b|
+b|q|776.8||||b
 b|d|600.0|-26|Subjects||b|
 b|d|610.0|-26|Subjects||b|
 b|d|611.0|-26|Subjects||b|
