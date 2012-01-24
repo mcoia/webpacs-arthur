@@ -6,6 +6,7 @@
 type="application/opensearchdescription+xml"
 title="Arthur Catalog"
 href="http://arthur.mobius.umsystem.edu/screens/opensearch.xml"; />
+<link rel="stylesheet" type="text/css" href="/screens/styles_s4.css" />
 <script type="text/javascript" src='/screens/sms.js'> </script>
 <script type="text/javascript">
 
@@ -36,10 +37,8 @@ if (document.body){document.body.className = "bodybg";}
 <script type="text/javascript">
 $(document).ready(function () {
 	$("span:contains(WebPAC PRO)").hide(); //Hide the iii footer
-
-	$('#searchtype').change(function(){
-    	$("#exampleText").load("screens/" + this.value + ".inc");
-	});
+	$('#b option:not([value^="2"])').hide();
+	$('#b option[value=""]').show();
 });
 </script>
 
@@ -54,7 +53,11 @@ $(document).ready(function () {
 </div>
 
 <div class="topLogoSmall">
-<a href="/search/" tabindex="10"><img src="/screens/arthur.png" alt="Arthur Catalog"></a>
+<a href="http://www.westminster-mo.edu/academics/resources/library/Pages/default.aspx" tabindex="10"><img src="/screens/westminster_library.jpg" alt="Westminster Library"></a>
+</div>
+
+<div class="arthurLogo">
+<a href="/search~S8" tabindex="10"><img src="/screens/arthur.png" alt="Arthur Catalog"></a>
 </div>
 
 <div class="mobiusLogoSmall">
@@ -78,6 +81,9 @@ $(document).ready(function () {
 <li>
 <!--{logout}-->
 </li>
+<li><a href="/search/j">Course Reserves</a></li>
+<li><a href="http://www.westminster-mo.edu/academics/resources/library/Pages/default.aspx">Reeves Library</a></li>
+<li><a href="http://mobius.umsystem.edu">MOBIUS</a></li>
 <li><a href="/search/b">Help</a></li>
 </ul>
 </div>
@@ -103,7 +109,6 @@ $(document).ready(function () {
 <div class="pageNavColumn"><!-- nav menu column-->
 
 <h1 class="navHeader">Search Options</h1>
-
 <ul id="rightCol">
 <li><a href="/search/X">Advanced Search</a></li>
 <li><a href="/search/a">Author</a></li>
@@ -123,11 +128,6 @@ $(document).ready(function () {
 <li><a href="/search/m">Children's Subject</a></li>
 <li><a href="/search/q">Author and Title</a></li>
 </ul>
-        
- 
-
-
-
 
 
 
