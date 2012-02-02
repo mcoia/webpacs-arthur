@@ -4,6 +4,6 @@
 <ShortName>Arthur Catalog</ShortName>
 <Description>Search the Arthur library catalog from your browser's search bar.</Description>
 <InputEncoding>UTF-8</InputEncoding>
-<Image width="16" height="16" type="image/x-icon">http://mcotrain.umsystem.edu/screens/favicon.ico</Image>
-<Url type="text/html" method="GET" template="http://arthur.mobius.umsystem.edu/search/X?{searchTerms}&amp;SORT=R" />
+<Image width="16" height="16" type="image/x-icon"></Image>
+<Url type="text/html" method="GET" template="http://arthur.searchmobius.org/search/X?{searchTerms}&amp;SORT=R" />
 </OpenSearchDescription>
