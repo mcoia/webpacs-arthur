@@ -8,6 +8,10 @@ var searchmobius = 'http://arthur.searchmobius.org'
 if (notDomain == "/") {
   var redirectUrl = searchmobius  + "/search~S0&redirected"  
 }else {
+  var r =  /\W$/
+  if (r.test(notDomain) == true){
+    notDomain = notDomain.slice(0,-1);
+  }
   redirectUrl = searchmobius + notDomain + "&redirected"
 }
 
