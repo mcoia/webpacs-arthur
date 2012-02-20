@@ -17,7 +17,7 @@ $.extend({
 });
 
 var mobileHost = 'https://m.arthur.searchmobius.org'; // No trailing slash
-var redirectUrl = mobileHost;
+var redirectUrl;
 var scope;
 var scopeMatch = /~S(\d+)/.exec(window.location.href);
 var searcharg = $.getUrlVar('searcharg');
@@ -32,8 +32,19 @@ if ($.getUrlVar('searcharg') || scope) {
   redirectUrl = mobileHost + '/search.php?searcharg=' + searcharg + '&scope=' + scope; 
 }
 
-if ($.getUrlVar('forcefull') == 1) {
-     $.cookie('hatesmobile', '1');
+// if a search argument is included, redirect to mobile search page
+// otherwise send to front page. MobileCat search.php expects a searcharg
+// or it will complain in big red text.
+if (searcharg) {
+  redirectUrl = mobileHost + '/search.php?searcharg=' + searcharg; 
+  if (scope) {
+    redirectUrl = redirectUrl + '&scope=' + scope; 
+  }
+} else {
+  redirectUrl = mobileHost + '/index.php';
+  if (scope) {
+    redirectUrl = redirectUrl + '?scope=' + scope;
+  }
 }
 
 if (!$.cookie('hatesmobile')) {
