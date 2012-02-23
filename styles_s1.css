@@ -1,15 +1,10 @@
-.topLogo {
-    height:119px;
-}
-
-.topLogoSmall {
-    position: absolute;
-    left:0;
-}
-
 .arthurLogo {
     position:absolute;
     width:250px;
     left:36%;
     top:5px;
+}
+
+.topLogoImage {
+    width:109px;
 }

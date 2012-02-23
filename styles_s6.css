@@ -1,7 +1,11 @@
-.mobiusLogoSmall {
-    top: 3px;
+.mobiusLogo {
+    top:6px;
 }
 
 .patFuncArea {
     width: 90%
+}
+
+.topLogoImage {
+    width:190px;
 }
