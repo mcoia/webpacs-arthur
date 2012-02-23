@@ -8,14 +8,8 @@ body { font-size:95%; }
     width:0px;
 }
 
-.topLogo {
-    height:119px;
-}
-
-.topLogoSmall {
-    position: absolute;
-    left:0;
-    top:17px;
+.topLogoImage {
+    padding:17px;
 }
 
 .arthurLogo {
@@ -27,4 +21,8 @@ body { font-size:95%; }
 
 #rightCol {
     font-size:16px;
+}
+
+.topLogoImage {
+    padding: 27px 5px;
 }
