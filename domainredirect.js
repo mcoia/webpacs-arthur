@@ -27,7 +27,7 @@ if (href.indexOf("&redirected") != -1 ) {
     var redirectMessage = "<p>You've been redirected from arthur.mobius.umsystem.edu or arthur.missouri.edu. Starting in June of 2012, those addresses will no longer work.</p><p>Please update your bookmarks to <a href='http://arthur.searchmobius.org'>http://arthur.searchmobius.org</a>.</p>"
 
     $(document).ready(function () {
-        $('#alertMessage').html(redirectMessage);
+        $('#redirectMessage').html(redirectMessage);
     });  
 }
 
