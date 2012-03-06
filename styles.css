@@ -910,12 +910,6 @@ td.progInfoLabel { color:#767C70; font-weight:bold; padding-right:25px; text-ali
 
 .popupFormHeading, .barePageHeading  { margin-top:0px; }
 
-#qr { width:125px; margin-left:auto; margin-right:auto; }
-
-#qrChoice { width:300px; margin-left:auto; margin-right:auto; margin-bottom:2em; }
-
-#qrChoice p { font-weight: bold; }
-
 .rateHelp td { padding: 0 8px 8px 0; }
 
 #bibDisplayBody .rateLabel a:link, #bibDisplayBody .rateLabel a:visited { color:#767C70; padding-right:.7em; text-align:right; vertical-align:top; font-weight:bold; font-style:normal; text-decoration:underline; }
