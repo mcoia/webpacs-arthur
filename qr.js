@@ -1,4 +1,3 @@
-var qrlink
 var linkText
 var qrCode
 var theLinks = new Array();
@@ -7,12 +6,18 @@ var theLinks = new Array();
 function linkQR(){
   
 $(".bibLinks a").each(function(index) {
-    if($(this).attr("href").indexOf("williamwoods")  == -1){
+    if($(this).parent().html().indexOf("williamwoods") == -1){
       theLinks.push($(this).attr("href"));
       linkText = $(this).text();
        $("<input type='radio' name='item' />" + linkText + "<br />").appendTo("#qrChoice")
-    }else {}
-}); 
+    }else {
+      $(this).parent().parent().hide() 
+    }
+});
+
+if ( theLinks.length < 2 ) {
+    $("#qrChoice").hide();
+}
 
 $("#qrChoice input").change(function () {
     index = $("#qrChoice input").index(this);
