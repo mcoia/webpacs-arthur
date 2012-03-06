@@ -1,27 +1,31 @@
-var qrlink
 var linkText
 var qrCode
+var theLinks = new Array();
+
 
 function linkQR(){
   
-function create_qr_code(index) {
-    qrlink = $(".bibLinks a:eq(" + index + ")").attr("href");
-}
-  
 $(".bibLinks a").each(function(index) {
-    create_qr_code(index);
-    linkText = $(this).text()
-    $("<input type='radio' name='item' />" + linkText + "<br />").appendTo("#qrChoice")
-}); 
+    if($(this).parent().html().indexOf("williamwoods") == -1){
+      theLinks.push($(this).attr("href"));
+      linkText = $(this).text();
+       $("<input type='radio' name='item' />" + linkText + "<br />").appendTo("#qrChoice")
+    }else {
+      $(this).parent().parent().hide() 
+    }
+});
+
+if ( theLinks.length < 2 ) {
+    $("#qrChoice").hide();
+}
 
 $("#qrChoice input").change(function () {
     index = $("#qrChoice input").index(this);
-    create_qr_code(index);
-    var qrCode = '<img src="http://chart.apis.google.com/chart?chs=125x125&cht=qr&chl=' + qrlink + '">';
+    var qrCode = '<img src="http://chart.apis.google.com/chart?chs=125x125&cht=qr&chl=' + theLinks[index] + '">';
     $("#qr").html(qrCode);
 });
 
-var qrCode = '<img src="http://chart.apis.google.com/chart?chs=125x125&cht=qr&chl=' + qrlink + '">';
+var qrCode = '<img src="http://chart.apis.google.com/chart?chs=125x125&cht=qr&chl=' + theLinks[0] + '">';
 $("#qr").html(qrCode);
       
 }
