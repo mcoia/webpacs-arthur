@@ -6,12 +6,12 @@ var theLinks = new Array();
 function linkQR(){
   
 $(".bibLinks a").each(function(index) {
-    if($(this).parent().html().indexOf("williamwoods") == -1){
+    if($(this).parent().html().indexOf("williamwoods") > -1 || $(this).parent().html().indexOf("westminster") > -1 || $(this).parent().html().indexOf("Missouri State Employee") > -1){
+      $(this).parent().parent().hide()
+    }else {
       theLinks.push($(this).attr("href"));
       linkText = $(this).text();
        $("<input type='radio' name='item' />" + linkText + "<br />").appendTo("#qrChoice")
-    }else {
-      $(this).parent().parent().hide() 
     }
 });
 
