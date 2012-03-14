@@ -1,0 +1,19 @@
+<div class="topLogo">
+
+<div class="topLogoImage">
+<a href="[% $scope.logoLink %]" tabindex="10"><img src="/screens/[% $scope.logo %]" alt="[% $scope.institution %] Catalog"></a>
+</div>
+
+[%- IF $scope.middle_logo -%]
+<div class="arthurLogo">
+<a href="/" tabindex="10"><img src="/screens/arthur.png" alt="Arthur Catalog"></a>
+</div>
+[%- END -%]
+
+<div class="mobiusLogo">
+<a href="http://searchmobius.org"><img src="/screens/mobius.gif" alt="MOBIUS Catalog"></a>
+</div>
+
+<div id="alertMessage"></div>
+
+</div><!--topLogo-->
