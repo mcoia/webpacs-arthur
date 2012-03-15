@@ -230,7 +230,7 @@ ICON_BUT_CARDFORM_BOX=<span class="button"><img src="/screens/ico_gear.png" alt=
 ICON_BUT_CARDFORM_LIN=<span class="button"><img src="/screens/ico_gear.png" alt=""><span class="buttonText">Show Cards in Line Format</span></span>
 CHECKIN_BGCOLOR=ARRIVED=#FFFFFF|EXPECTED=#FFFFFF|TO BIND/BOUND=#FFFFFF|LATE=#FFFFFF|OTHER=#FFFFFF
 CHECKIN_FONTCOLOR=ARRIVED=GREEN|EXPECTED=BLACK|TO BIND/BOUND=RED|LATE=BLACK|OTHER=BLACK
-CHECKIN_STATUS=EXPECTED=Coming soon|ARRIVED=Here|PARTIAL=Partial|MISSING=Missing|BOUND=Bound|TO BIND=Being bound|BND PREP=Binding prep|REMOVED=Removed|BLANK=Blank|OUT OF PRINT=Out of print|UNAVAILABLE=Unavailable|NOT PUBLISHED=Not published
+CHECKIN_STATUS=E=Coming soon|A=Here|P=Partial|M=Missing|B=Bound|T=Being bound|S=Binding prep|R=Removed|N=Blank|O=Out of print|U=Unavailable|L=Not published
 DISPLAY_CHECKIN_856=z
 HOLDINGS_REQ=Deliver this article to me
 SORT_ITEMS=true
