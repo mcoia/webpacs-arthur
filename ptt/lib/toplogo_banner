@@ -1,18 +1,13 @@
 <div class="searchNav">
-
 <div id="searchNavMenu">
-
 <div class="navLeft">
-
 <ul>
-[% PROCESS leftItem FOREACH $scope.leftBanner %]
-[% PROCESS leftItem FOREACH $scope.moreLeftBanner %]
+[% PROCESS leftItem FOREACH $scope.leftBanner -%]
+[% PROCESS leftItem FOREACH $scope.moreLeftBanner -%]
 </ul>
-
-[% BLOCK leftItem %]
+[% BLOCK leftItem -%]
     <li><a href="/[% link %]">[% text %]</a></li>
-[% END %]
-
+[% END -%]
 </div>
 
 <div class="clear"></div>
