@@ -21,11 +21,11 @@ if ( theLinks.length < 2 ) {
 
 $("#qrChoice input").change(function () {
     index = $("#qrChoice input").index(this);
-    var qrCode = '<img src="http://chart.apis.google.com/chart?chs=125x125&cht=qr&chl=' + theLinks[index] + '">';
+    var qrCode = '<img src="http://chart.apis.google.com/chart?chs=100x100&cht=qr&chl=' + theLinks[index] + '">';
     $("#qr").html(qrCode);
 });
 
-var qrCode = '<img src="http://chart.apis.google.com/chart?chs=125x125&cht=qr&chl=' + theLinks[0] + '">';
+var qrCode = '<img src="http://chart.apis.google.com/chart?chs=100x100&cht=qr&chl=' + theLinks[0] + '">';
 $("#qr").html(qrCode);
       
 }

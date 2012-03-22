@@ -910,9 +910,9 @@ td.progInfoLabel { color:#767C70; font-weight:bold; padding-right:25px; text-ali
 
 .popupFormHeading, .barePageHeading  { margin-top:0px; }
 
-#qr { width:125px; margin-left:auto; margin-right:auto; }
+#qr { width:100px; margin-left:auto; margin-right:auto; }
 
-#qrChoice { width:300px; margin-left:auto; margin-right:auto; margin-bottom:2em; }
+#qrChoice { margin-left:auto; margin-right:auto; margin-bottom:2em; font-size:95%; }
 
 #qrChoice p { font-weight: bold; }
 
