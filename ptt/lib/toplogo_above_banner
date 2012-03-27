@@ -1,5 +1,4 @@
 <div class="topLogo">
-
 <div class="topLogoImage">
 <a href="[% $scope.logoLink %]" tabindex="10"><img src="/screens/[% $scope.logo %]" alt="[% $scope.institution %] Catalog"></a>
 </div>
