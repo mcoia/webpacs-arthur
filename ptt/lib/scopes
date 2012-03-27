@@ -1,4 +1,4 @@
-[% lincoln = {
+[%- lincoln = {
 
         #GENERAL
         
@@ -27,8 +27,7 @@
             middle_logo = 1
     }
 -%]
-
-[% columbia = {
+[%- columbia = {
 
         #GENERAL
         
@@ -55,8 +54,7 @@
                 ]
     }
 -%]
-
-[% stephens = {
+[%- stephens = {
 
         #GENERAL
         
@@ -84,8 +82,7 @@
                 ]
     }
 -%]
-
-[% westminster = {
+[%- westminster = {
 
         #GENERAL
         
@@ -135,8 +132,7 @@
                 ]
     }
 -%]
-
-[% williamwoods = {
+[%- williamwoods = {
 
         #GENERAL
         
@@ -154,8 +150,7 @@
             logo = 'WW_logo_small.gif'
     }
 -%]
-
-[% missouristate = {
+[%- missouristate = {
 
         #GENERAL
         
@@ -174,8 +169,7 @@
            logo = 'libLogoCat2small.gif'
     }
 -%]
-
-[% modot = {
+[%- modot = {
 
         #GENERAL
         
