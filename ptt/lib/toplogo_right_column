@@ -11,7 +11,7 @@
                 [% END -%]
 [% BLOCK rightColumnItem -%]
     <li><a href="/[% link %]">[% text %]</a></li>
-    [% IF columnText == 'Numbers' -%]
+    [% IF text == 'Numbers' -%]
 		<ul>
 		[% PROCESS numberItem FOREACH $scope.numberRightColumn %]
 		</ul>
