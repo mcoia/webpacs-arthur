@@ -1,18 +1,27 @@
-<div class="searchNav">
-<div id="searchNavMenu">
-<div class="navLeft">
+<div class="linkBanner">
+[% IF $scope.leftBanner -%]
+<div class="linkBannerLeft">
 <ul>
-[% PROCESS leftItem FOREACH $scope.leftBanner -%]
-[% PROCESS leftItem FOREACH $scope.moreLeftBanner -%]
+[% PROCESS bannerItem FOREACH $scope.leftBanner -%]
+[% PROCESS bannerItem FOREACH $scope.moreLeftBanner -%]
 </ul>
-[% BLOCK leftItem -%]
+</div>
+[% END -%]
+[% IF $scope.rightBanner -%]
+<div class="linkBannerRight">
+<ul>
+[% PROCESS bannerItem FOREACH $scope.rightBanner -%]
+[% PROCESS bannerItem FOREACH $scope.moreRightBanner -%]
+</ul>
+</div>
+[% END -%]
+[% BLOCK bannerItem -%]
     <li><a href="/[% link %]">[% text %]</a></li>
 [% END -%]
-</div>
 
 <div class="clear"></div>
 
 </div>
 
-</div><!--searchNav-->
+</div><!--linkBanner-->
 <div class="clear"></div>
