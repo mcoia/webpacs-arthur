@@ -1,20 +1,28 @@
-<div class="pageNavColumn"><!-- nav menu column-->
 
-<h1 class="navHeader">Search Options</h1>
+<div class="rightColumn">
+<div id="searchOptions">
 
-<ul id="rightCol">
+<h1>Search Options</h1>
+
+<ul>
 [% PROCESS rightColumnItem FOREACH $scope.rightColumn -%]
 [% PROCESS rightColumnItem FOREACH $scope.moreRightColumn -%]
 </ul>
 		[% BLOCK numberItem -%]
-                <li><a href="/[% link %]">[% text %]</li>
+                <li>
+		<a href="/[% link %]">[% text %]</a>
+		</li>
                 [% END -%]
 [% BLOCK rightColumnItem -%]
-    <li><a href="/[% link %]">[% text %]</a></li>
+    <li>
+    <a href="/[% link %]">[% text %]</a>
     [% IF text == 'Numbers' -%]
-		<ul>
-		[% PROCESS numberItem FOREACH $scope.numberRightColumn %]
-		</ul>
-    [% END -%]   
+	<ul>
+	[% PROCESS numberItem FOREACH $scope.numberRightColumn %]
+	</ul>
+    [% END -%]
+    </li>
 [% END -%]
-</div><!--pageNavColumn-->
+
+</div><!--searchOptions-->
+</div><!--rightColumn-->
