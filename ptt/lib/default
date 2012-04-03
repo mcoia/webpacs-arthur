@@ -4,7 +4,20 @@
 
     $scope.institution = 'Arthur Catalog'
     $scope.scope_number = 0
+    
+#STYLES
 
+    $scope.leftLogoWidth = '250px'
+    $scope.leftLogoPadding = '5px'
+    
+    $scope.middleLogoWidth = '250px'
+    $scope.middleLogoLeft = '36%'
+    $scope.middleLogoTop = '5px'
+    
+    $scope.rightLogoWidth = '250px'
+    $scope.rightLogoRight = '10px'
+    $scope.rightLogoTop = '24px'
+    
 #TOPLOGO
 
 #toplogo_scripts_css

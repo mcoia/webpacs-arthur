@@ -1,15 +1,15 @@
 <div class="topLogo">
-<div class="topLogoImage">
+<div class="leftLogo">
 <a href="[% $scope.logoLink %]" tabindex="10"><img src="/screens/[% $scope.logo %]" alt="[% $scope.institution %] Catalog"></a>
 </div>
 
 [%- IF $scope.middle_logo -%]
-<div class="arthurLogo">
+<div class="middleLogo">
 <a href="/" tabindex="10"><img src="/screens/arthur.png" alt="Arthur Catalog"></a>
 </div>
 [%- END -%]
 
-<div class="mobiusLogo">
+<div class="rightLogo">
 <a href="http://searchmobius.org"><img src="/screens/mobius.gif" alt="MOBIUS Catalog"></a>
 </div>
 

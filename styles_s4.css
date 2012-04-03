@@ -1,18 +1,21 @@
-.topLogoImage {
-   padding:12px 4px;
+.leftLogo {
+    width: 250px;
+    padding: 12px 4px;
 }
 
-.arthurLogo {
-    position:absolute;
-    width:250px;
-    left:36%;
-    top:5px;
+.middleLogo {
+    position: absolute;
+    width: 250px;
+    left: 36%;
+    top: 5px;
 }
 
-.mobiusLogoSmall {
-    top:23px;
-}
-
-.tipsTable {
-    margin-right:20px;
+.rightLogo {
+    position: absolute;
+    width: 250px;
+    right: 10px;
+    top: 24px;
+}
+.tipsTable {
+    margin-right:20px;
 }
