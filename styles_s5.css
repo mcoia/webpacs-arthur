@@ -1,3 +1,12 @@
-.topLogoImage {
-   width:150px;
+.leftLogo {
+    width: 150px;
+    padding: 5px;
+}
+
+
+.rightLogo {
+    position: absolute;
+    width: 250px;
+    right: 10px;
+    top: 24px;
 }

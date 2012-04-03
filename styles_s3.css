@@ -1,28 +1,31 @@
-body { font-size:95%; }
-
-.briefcitDetail, .briefcitAuthDetail {
-    width: 80%;
-}
-
-.briefcitJacket {
-    width:0px;
-}
-
-.topLogoImage {
-    padding:17px;
-}
-
-.arthurLogo {
-    position:absolute;
-    width:250px;
-    left:38%;
-    top:5px;
-}
-
-#rightCol {
-    font-size:16px;
-}
-
-.topLogoImage {
+.leftLogo {
+    width: 250px;
     padding: 27px 5px;
 }
+
+.middleLogo {
+    position: absolute;
+    width: 250px;
+    left: 36%;
+    top: 5px;
+}
+
+.rightLogo {
+    position: absolute;
+    width: 250px;
+    right: 10px;
+    top: 24px;
+}
+body { font-size:95%; }
+
+.briefcitDetail, .briefcitAuthDetail {
+    width: 80%;
+}
+
+.briefcitJacket {
+    width:0px;
+}
+
+#rightCol {
+    font-size:16px;
+}

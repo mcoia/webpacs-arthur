@@ -1,11 +1,15 @@
-.mobiusLogo {
-    top:6px;
+.leftLogo {
+    width: 72px;
+    padding: 5px;
 }
 
-.patFuncArea {
-    width: 90%
-}
 
-.topLogoImage {
-    width:72px;
-}
+.rightLogo {
+    position: absolute;
+    width: 250px;
+    right: 10px;
+    top: 6px;
+}
+.patFuncArea {
+    width: 90%
+}

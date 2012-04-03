@@ -5,6 +5,10 @@
             institution = 'Lincoln University'
             scope_number = 1
             
+        #STYLES
+        
+            leftLogoWidth = '109px'
+
         #TOPLOGO
 
         #toplogo_scripts_css
@@ -34,6 +38,10 @@
             institution = 'Columbia College'
             scope_number = 2
             
+        #STYLES
+        
+            rightLogoTop = '8px'
+            
         #TOPLOGO
 
         #toplogo_scripts_css
@@ -60,6 +68,10 @@
         
             institution = 'Stephens College'
             scope_number = 3
+            
+        #STYLES
+
+            leftLogoPadding = '27px 5px'
             
         #TOPLOGO
 
@@ -88,6 +100,10 @@
         
             institution = 'Westminster College'
             scope_number = 4
+            
+        #STYLES
+        
+            leftLogoPadding = '12px 4px'
             
         #TOPLOGO
 
@@ -139,6 +155,10 @@
             institution = 'William Woods'
             scope_number = 5
             
+        #STYLES
+        
+            leftLogoWidth = '150px'
+            
         #TOPLOGO
 
         #toplogo_scripts_css
@@ -156,6 +176,12 @@
         
             institution = 'Missouri State Library'
             scope_number = 6
+            
+        #STYLES
+        
+            leftLogoWidth = '190px'
+
+            rightLogoTop = '6px'
 
         #TOPLOGO
 
@@ -176,6 +202,12 @@
             institution = 'MoDOT'
             scope_number = 7
             
+        #STYLES
+        
+            leftLogoWidth = '72px'
+
+            rightLogoTop = '6px'
+            
         #TOPLOGO
 
         #toplogo_scripts_css
@@ -188,4 +220,3 @@
            logo = 'MoDOT_logo_sm.gif'
     }
 -%]
-
