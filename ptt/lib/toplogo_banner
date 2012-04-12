@@ -2,6 +2,11 @@
 [% IF $scope.leftBanner -%]
 <div class="linkBannerLeft">
 <ul>
+[% IF loggedin -%]
+[% PROCESS bannerToken FOREACH $scope.loggedinLeftBanner -%]
+[% ELSE -%]
+[% PROCESS bannerItem FOREACH $scope.notLoggedinLeftBanner -%]
+[% END -%]
 [% PROCESS bannerItem FOREACH $scope.leftBanner -%]
 [% PROCESS bannerItem FOREACH $scope.moreLeftBanner -%]
 </ul>
@@ -10,6 +15,11 @@
 [% IF $scope.rightBanner -%]
 <div class="linkBannerRight">
 <ul>
+[% IF loggedin %]
+[% PROCESS bannerToken FOREACH $scope.loggedinRightBanner -%]
+[% ELSE %]
+[% PROCESS bannerItem FOREACH $scope.notLoggedinRightBanner -%]
+[% END %]
 [% PROCESS bannerItem FOREACH $scope.rightBanner -%]
 [% PROCESS bannerItem FOREACH $scope.moreRightBanner -%]
 </ul>
@@ -17,6 +27,11 @@
 [% END -%]
 [% BLOCK bannerItem -%]
     <li><a href="/[% link %]">[% text %]</a></li>
+[% END -%]
+[% BLOCK bannerToken -%]
+    <li>
+<!--{[% token %]}-->
+    </li>
 [% END -%]
 
 <div class="clear"></div>
