@@ -54,7 +54,19 @@
 
 #toplogo_banner
 
-    $scope.leftBanner = [
+    $scope.loggedinLeftBanner = [
+        {
+            token = 'startover'
+        }
+        {
+            token = 'patronrecord'
+        }
+        {
+            token = 'logout'
+        }
+        ]
+
+    $scope.notLoggedinLeftBanner = [
         {
             link = 'search'
             text = 'New Search'
@@ -63,6 +75,9 @@
             link = 'patroninfo'
             text = 'My Library Account'
         }
+        ]
+
+    $scope.leftBanner = [
         {
             link = 'search/b'
             text = 'Help'
