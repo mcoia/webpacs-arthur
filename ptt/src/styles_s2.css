@@ -1,3 +1,9 @@
 [%- scope = 'columbia' -%]
 [%- PROCESS scopes -%]
 [%- PROCESS styles -%]
+
+a.bibDisplayContentMain, .resourceDisplayContentMain {
+    margin-left:2em;
+    margin-right:.5em;
+    width:75%;
+}

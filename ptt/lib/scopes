@@ -47,6 +47,7 @@
 	#toplogo_scripts_css
 	
                 locationInitial = 'c'
+                linkQR = 1
                 scopeScripts = [
                         {
                                 script = '856links'
