@@ -27,9 +27,6 @@
     $scope.locationInitial = 'z'
     $scope.theScripts = [
         {
-            script = 'jquery-1.7.min'
-        }
-        {
             script = 'jquery.cookie'
         }
         {

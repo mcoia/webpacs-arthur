@@ -146,7 +146,7 @@
                 leftBanner = [
     
                     {
-                        link = '/search/j'
+                        link = 'search/j'
                         text = 'Course Reserves'
                     }
                     {
