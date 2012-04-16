@@ -47,6 +47,11 @@
 	#toplogo_scripts_css
 	
                 locationInitial = 'c'
+                scopeScripts = [
+                        {
+                                script = '856links'
+                        }
+                        ]
 	    
 	#toplogo_above_banner
 	
@@ -58,6 +63,10 @@
                     {
                         link = 'search/j'
                         text = 'Course Reserves'
+                    }
+                    {
+                        link = 'search/v'
+                        text = 'Videos'
                     }
                     ]
     }
