@@ -1,13 +1,12 @@
-.bibDisplayContentMain, .resourceDisplayContentMain {
-    margin-left:2em;
-    margin-right:.5em;
-    width:75%;
+.leftLogo {
+    width: 250px;
+    padding: 5px;
 }
 
-.bibDisplayJacket {
-    width:10em;
-}
 
-.mobiusLogo {
+.rightLogo {
+    position: absolute;
+    width: 250px;
+    right: 10px;
     top: 8px;
 }
