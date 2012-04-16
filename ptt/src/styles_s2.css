@@ -7,3 +7,7 @@ a.bibDisplayContentMain, .resourceDisplayContentMain {
     margin-right:.5em;
     width:75%;
 }
+
+.bibDisplayJacket {
+    width:8em;
+}
