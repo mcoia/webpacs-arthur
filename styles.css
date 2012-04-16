@@ -95,13 +95,6 @@ strong .button { display:block; font-weight:normal; margin-top:15px; }
 
 .pageContent p { margin-left:20px; }
 
-.pageContentColumn {
-float:right;
-margin-left:1%;
-padding:1%;
-width:71%;
-}
-
 .pageContentInner p { margin-left:0px; }
 
 /* end status message area */
@@ -746,7 +739,7 @@ div .bibResourceSidebar { display:none; }
 
 .mainSearch .form1Part, .mainMenuContent { width:600px; margin-left:auto; margin-right:auto; max-width:100%; } /*Fixed the search box so it wouldn't run into the Search Options column on narrow browsers */
 
-.minHeight { height:100%; width:97%; margin-left:auto; margin-right:auto; background:#ffffff; padding-bottom:0; padding-top:0; }
+.minHeight { min-height:100%; width:97%; margin-left:auto; margin-right:auto; background:#ffffff; padding-bottom:0; padding-top:0; }
 
 .miscButtons { margin-bottom: 1em;}
 
