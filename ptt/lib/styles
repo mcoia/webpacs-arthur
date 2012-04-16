@@ -4,7 +4,7 @@
     padding: [% $scope.leftLogoPadding %];
 }
 
-[% IF $scope.middle_logo -%]
+[% IF $scope.middleLogo -%]
 .middleLogo {
     position: absolute;
     width: [% $scope.middleLogoWidth %];

@@ -3,6 +3,12 @@
     padding: 5px;
 }
 
+.middleLogo {
+    position: absolute;
+    width: 250px;
+    left: 36%;
+    top: 5px;
+}
 
 .rightLogo {
     position: absolute;
