@@ -3,7 +3,7 @@
 	#GENERAL
 	
                 institution = 'Lincoln University'
-                scope_number = 1
+                scopeNumber = 1
 	    
 	#STYLES
 	
@@ -13,8 +13,8 @@
 
 	#toplogo_scripts_css
 	
-                hide_locations = 1
-                location_initial = 'l'
+                hideLocations = 1
+                locationInitial = 'l'
 	    
 	#toplogo_banner
 
@@ -28,7 +28,7 @@
 	#toplogo_above_banner
 	
                 logo = 'lincoln.png'
-                middle_logo = 1
+                middleLogo = 1
     }
 -%]
 [%- columbia = {
@@ -36,7 +36,7 @@
 	#GENERAL
 	
                 institution = 'Columbia College'
-                scope_number = 2
+                scopeNumber = 2
 	    
 	#STYLES
 	
@@ -46,7 +46,7 @@
 
 	#toplogo_scripts_css
 	
-                location_initial = 'c'
+                locationInitial = 'c'
 	    
 	#toplogo_above_banner
 	
@@ -67,7 +67,7 @@
 	#GENERAL
 	
                 institution = 'Stephens College'
-                scope_number = 3
+                scopeNumber = 3
 	    
 	#STYLES
 
@@ -82,7 +82,7 @@
 	#toplogo_above_banner
 	
                 logo = 'stephens.png'
-                middle_logo = 1
+                middleLogo = 1
 	    
 	#toplogo_right_column
 
@@ -99,7 +99,7 @@
 	#GENERAL
 	
                 institution = 'Westminster College'
-                scope_number = 4
+                scopeNumber = 4
 	    
 	#STYLES
 	
@@ -109,14 +109,14 @@
 
 	#toplogo_scripts_css
 	
-                hide_locations = 1
-                location_initial = '2'
+                hideLocations = 1
+                locationInitial = '2'
 	
 	#toplogo_above_banner
 	    
                 logo = 'westminster_library.jpg'
                 logoLink = 'http://www.westminster-mo.edu/academics/resources/library/Pages/default.aspx'
-                middle_logo = 1
+                middleLogo = 1
 	    
 	#toplogo_banner
 	
@@ -169,7 +169,7 @@
 	#GENERAL
 	
                 institution = 'William Woods'
-                scope_number = 5
+                scopeNumber = 5
 	    
 	#STYLES
 	
@@ -179,7 +179,7 @@
 
 	#toplogo_scripts_css
 	
-                location_initial = 'w'
+                locationInitial = 'w'
 	    
 	#toplogo_above_banner
 	
@@ -191,7 +191,7 @@
 	#GENERAL
 	
                 institution = 'Missouri State Library'
-                scope_number = 6
+                scopeNumber = 6
 	    
 	#STYLES
 	
@@ -203,8 +203,8 @@
 
 	#toplogo_scripts_css
 	
-                hide_locations = 1
-                location_initial = 'm'
+                hideLocations = 1
+                locationInitial = 'm'
 	    
 	#toplogo_above_banner
 	
@@ -216,7 +216,7 @@
 	#GENERAL
 	
                 institution = 'MoDOT'
-                scope_number = 7
+                scopeNumber = 7
 	    
 	#STYLES
 	
@@ -228,8 +228,8 @@
 
 	#toplogo_scripts_css
 	
-                hide_locations = 1
-                location_initial = 'm'
+                hideLocations = 1
+                locationInitial = 'm'
 	
 	#toplogo_above_banner
 	

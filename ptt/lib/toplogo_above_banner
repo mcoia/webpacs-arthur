@@ -3,7 +3,7 @@
 <a href="[% $scope.logoLink %]" tabindex="10"><img src="/screens/[% $scope.logo %]" alt="[% $scope.institution %] Catalog"></a>
 </div>
 
-[%- IF $scope.middle_logo -%]
+[%- IF $scope.middleLogo -%]
 <div class="middleLogo">
 <a href="/" tabindex="10"><img src="/screens/arthur.png" alt="Arthur Catalog"></a>
 </div>

@@ -3,7 +3,7 @@
 #GENERAL
 
     $scope.institution = 'Arthur Catalog'
-    $scope.scope_number = 0
+    $scope.scopeNumber = 0
     
 #STYLES
 
@@ -22,9 +22,9 @@
 
 #toplogo_scripts_css
 
-    $scope.changing_examples = 0
-    $scope.hide_locations = 0
-    $scope.location_initial = 'z'
+    $scope.changingExamples = 0
+    $scope.hideLocations = 0
+    $scope.locationInitial = 'z'
     $scope.theScripts = [
         {
             script = 'jquery-1.7.min'
@@ -50,7 +50,7 @@
 
     $scope.logo = 'arthur.png'
     $scope.logoLink = '/search/'
-    $scope.middle_logo = 0
+    $scope.middleLogo = 0
 
 #toplogo_banner
 
