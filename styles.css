@@ -697,21 +697,28 @@ div .bibResourceSidebar { display:none; }
 
 .libinfoRight li {  }
 
-.linkBanner{ background: #3B77B6; margin:0; position:relative; padding: 0.5em 0; text-align:right;}
+.linkBanner {
+    background:#3B6B91;
+    margin:0;
+    position:relative;
+    text-align:right;
+    padding:.5em 0;
+    clear:both;
+    float:right;
+    width:100%;
+}
 
 .linkBanner a {color: #ffffff; font-weight:bold; text-decoration:none;}
 
-.linkBanner .navLeft {float: left;}
+.linkBanner .linkBannerLeft {float: left;}
 
-.linkBanner. .navRight {float: right;}
+.linkBanner .linkBannerRight {float: right;}
 
-.linkBanner .navLeft ul li {margin-left: 0; margin-right:2em;}
+.linkBanner .linkBannerLeft ul li, .linkBanner .linkBannerRight ul li {margin-left: 0; margin-right:2em;}
 
 .linkBanner ul {list-style-type:none; margin: 0; padding: 0 1.2em;}
 
 .linkBanner ul li {display: inline; margin-left:2em;}
-
-/* #linkBannerMenu { margin:0; text-align:right; padding:.5em 0;} */
 
 .loggedInMessage { color:#999999; font-size:.8em; font-style:normal; float:right; margin:1px 5px 0 0; }
 
@@ -743,8 +750,6 @@ div .bibResourceSidebar { display:none; }
 
 .miscButtons { margin-bottom: 1em;}
 
-.mobiusLogo, .clusterLogo { position:absolute; right:10px; top:24px;}
-
 .msg td { padding-top:3px; }
 
 .mylistsSavePage { height:100%; width:100%; padding-bottom:0; padding-top:0; }
@@ -754,17 +759,6 @@ div .bibResourceSidebar { display:none; }
 .mylistsSavePage form { padding:10px; color:#000000; float:none; }
 
 .mylistsSavePage .pageMainAreaHeader { font-size:1.3333em; font-weight:bold; }
-
-.navHeader {
-border-bottom:1px dashed #5E5D5D;
-color:#5E5D5D;
-font-size:small;
-font-weight:bold;
-letter-spacing:1px;
-margin-bottom:0;
-margin-top:5px;
-padding:2px;
-}
 
 .navigationRow a:link,.navigationRow a:visited, .miscButtons a:link, .miscButtons a:visited { color: #014184; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
 
@@ -800,16 +794,6 @@ width:71%;
 .pageContentInner h2 { font-size:1.1667em; margin-top:10px; }
 
 .pageContentInnerBarePage { padding:12px 20px;}
-
-.pageNavColumn {
-background-color:#F3F3F3;
-border:1px solid #D3D3D3;
-float:right;
-margin:2% 1.75%;
-padding:0.5%;
-width:19%;
-}
-
 
 .pat br { display:inline; line-height:1px; }
 
@@ -996,42 +980,10 @@ table.reserveBibs { margin:25px 0 20px 15%; width:65%; }
 
 #bibDisplayBody .reviewLinks a:link, #bibDisplayBody .reviewLinks a:active, #bibDisplayBody .reviewLinks a:visited  { color:#369699; }
 
-#rightCol {
-font-size:15px;
-margin:0 20px;
-padding:0;
-}
-
-#rightCol li {
-list-style-type:none;
-padding:4px 0;
-text-indent:-14px;
-}
-
-#rightCol li a {
-color:#444444;
-margin:0 0 0 3px;
-padding:0;
-text-decoration:none;
-}
-
-#rightCol {
-font-size:15px;
-margin:0 20px;
-padding:0;
-}
-
-#rightCol li {
-list-style-type:none;
-padding:4px 0;
-text-indent:-14px;
-}
-
-#rightCol li a {
-color:#444444;
-margin:0 0 0 3px;
-padding:0;
-text-decoration:none;
+.rightColumn {
+float:right;
+margin:2% 1.75%;
+width:20.25%;
 }
 
 .rrUserQuery {color:#457029;}
@@ -1058,24 +1010,40 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 #searcharg { }
 
-/*Relative position allows this bg color to show in older IE.*/
-.searchNav { background:#3b6b91; margin:0; position:relative; }
+#searchOptions {
+    background-color:#F3F3F3;
+    border:1px solid #D3D3D3;
+    padding:0.5em;
+}
 
-.searchNav a {color: #ffffff; font-weight:bold; text-decoration:none;}
+#searchOptions h1 {
+border-bottom:1px dashed #5E5D5D;
+color:#5E5D5D;
+font-size:small;
+font-weight:bold;
+letter-spacing:1px;
+margin:5px 0 0;
+padding:2px;
+}
 
-.searchNav .navLeft {float: left;}
+#searchOptions ul {
+font-size:15px;
+margin:0 20px;
+padding:0;
+}
 
-.searchNav. .navRight {float: right;}
+#searchOptions ul li {
+list-style-type:none;
+padding:4px 0;
+text-indent:-14px;
+}
 
-.searchNav .navLeft ul li {margin-left: 0; margin-right:2em;}
-
-.searchNav ul {list-style-type:none; margin: 0; padding: 0 1.2em;}
-
-.searchNav ul li {display: inline; margin-left:2em;}
-
-#searchNavMenu { margin:0; text-align:right; padding:.5em 0;}
-
-.searchNavBut { vertical-align:bottom; margin:3px 10px 3px 5px; }
+#searchOptions ul li a {
+color:#444444;
+margin:0 0 0 3px;
+padding:0;
+text-decoration:none;
+}
 
 #skipNav a, #cproSkipNav a:hover, #cproSkipNav a:visited { position:absolute; left:0px; top:-5000px; width:1px; height:1px; overflow:hidden; }
 
@@ -1113,11 +1081,7 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 .topLogo { position:relative; }
 
-.topLogo img { border:0; display:block; margin-left:auto; margin-right:auto }
-
-.topLogoImage { padding:5px;}
-
-.topLogoImage, .mobiusLogo, .clusterLogo {width:250px;}
+.leftLogo img { border:0; display:block; margin-left:auto; margin-right:auto }
 
 .topLinks { float: right; height: auto; margin:0; padding:0; width: 50%; }
 
