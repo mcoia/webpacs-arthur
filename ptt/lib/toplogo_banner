@@ -26,7 +26,7 @@
 </div>
 [% END -%]
 [% BLOCK bannerItem -%]
-    <li><a href="/[% link %]">[% text %]</a></li>
+    <li><a href="[% link %]">[% text %]</a></li>
 [% END -%]
 [% BLOCK bannerToken -%]
     <li>

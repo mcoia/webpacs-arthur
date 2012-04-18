@@ -65,18 +65,18 @@
 
     $scope.notLoggedinLeftBanner = [
         {
-            link = 'search'
+            link = '/search'
             text = 'New Search'
         }
         {
-            link = 'patroninfo'
+            link = '/patroninfo'
             text = 'My Library Account'
         }
         ]
 
     $scope.leftBanner = [
         {
-            link = 'search/b'
+            link = '/search/b'
             text = 'Help'
         }
         ]
@@ -85,19 +85,19 @@
 
     $scope.rightColumn = [
         {
-            link = 'search/X'
+            link = '/search/X'
             text = 'Advanced Search'
         }
         {
-            link = 'search/a'
+            link = '/search/a'
             text = 'Author'
         }
         {
-            link = 'search/t'
+            link = '/search/t'
             text = 'Title'
         }
         {
-            link = 'search/s'
+            link = '/search/s'
             text = 'Journals, Magazines, Newspapers'
         }
         {
@@ -105,42 +105,42 @@
             text = 'Numbers'
         }
         {
-            link = 'search/d'
+            link = '/search/d'
             text = 'Subject (LC)'
         }
         {
-            link = 'search/m'
+            link = '/search/m'
             text = 'Children\'s Subject'
         }
         {
-            link = 'search/q'
+            link = '/search/q'
             text = 'Author and Title'
         }
         ]
         
     $scope.numberRightColumn = [
         {
-            link = 'search/c'
+            link = '/search/c'
             text = 'Library of Congress (LC) Call Number'
         }
         {
-            link = 'search/e'
+            link = '/search/e'
             text = 'Dewey Call Number'
         }
         {
-            link = 'search/f'
+            link = '/search/f'
             text = 'Other Call Number'
         }
         {
-            link = 'search/g'
+            link = '/search/g'
             text = 'Government Document Call Number'
         }
         {
-            link = 'search/i'
+            link = '/search/i'
             text = 'ISBN, ISSN, Music, Etc., Number'
         }
         {
-            link = 'search/o'
+            link = '/search/o'
             text = 'OCLC Number'
         }
         ]
