@@ -20,7 +20,7 @@
 
                 moreLeftBanner = [
                     {
-                        link = 'search/j'
+                        link = '/search/j'
                         text = 'Course Reserves'
                     }
                     ]
@@ -62,11 +62,11 @@
 
                 moreRightColumn = [
                     {
-                        link = 'search/j'
+                        link = '/search/j'
                         text = 'Course Reserves'
                     }
                     {
-                        link = 'search/v'
+                        link = '/search/v'
                         text = 'Videos'
                     }
                     ]
@@ -98,7 +98,7 @@
 
                 moreRightColumn = [
                     {
-                        link = 'search/j'
+                        link = '/search/j'
                         text = 'Course Reserves'
                     }
                     ]
@@ -144,11 +144,11 @@
             
                 notLoggedinLeftBanner = [
                     {
-                        link = 'search'
+                        link = '/search'
                         text = 'New Search'
                     }
                     {
-                        link = 'patroninfo'
+                        link = '/patroninfo'
                         text = 'My Library Account'
                     }
                     ]
@@ -156,7 +156,7 @@
                 leftBanner = [
     
                     {
-                        link = 'search/j'
+                        link = '/search/j'
                         text = 'Course Reserves'
                     }
                     {
@@ -168,7 +168,7 @@
                         text = 'MOBIUS'
                     }
                     {
-                        link = 'search/b'
+                        link = '/search/b'
                         text = 'Help'
                     }
                     ]
