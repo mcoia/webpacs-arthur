@@ -11,28 +11,6 @@
 </div><!-- fullPage -->
 </div><!-- min-height -->
 <link rel="shortcut icon" type="ximage/icon" href="/screens/favicon.ico" />
-<script>
-
-if (!document.getElementById("recordnum")) {} else{
-// Get record number eg b number, g number, p number
-var ref = document.getElementById("recordnum").getAttribute("href");
-var str = ref.indexOf("=")
-var recno = ref.substr(str+1,8);
-var encoreLink = '<a href="http://arthurencore.searchmobius.org/iii/encorecc/record/C__R'+recno+'"><span class="button"><img src="/screens/ico_encore.png" alt=""><span class="buttonText">Search Encore</span></span></a>';
-// Put link to Encore record on record page
-document.getElementById("encoreLink").innerHTML = encoreLink;
-}
-
-if (document.getElementById("recordnum")) {} else{
-// Get record number eg b number, g number, p number
-var searchTerm = document.getElementById("searcharg").value
-var encoreLink = '<a href="http://arthurencore.searchmobius.org/iii/encorecc/search/C__S'+searchTerm+'"><span class="button"><img src="/screens/ico_encore.png" alt=""><span class="buttonText">Search Encore</span></span></a>';
-$('.navigationRow form').prepend(encoreLink)
-}
-
-
-
-</script>
 
 <script type="text/javascript"> 
 <!--
