@@ -1042,6 +1042,8 @@ text-decoration:none;
 
 .submitHidden { position:absolute; left:-999px; top:-999px; }
 
+#syndetics { display: none; }
+
 /* Staff view */
 
 .pageContent > table em { margin-left:15px; }
