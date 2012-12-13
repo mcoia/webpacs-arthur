@@ -1,15 +1,56 @@
+.bibDisplayJacket  { float:left; margin:0 0 1em 5%; display:inline; width:6em; }
+
+.briefcitDetail, .briefcitAuthDetail  { display:inline; float:left; padding:0px 0 0px 30px; width:65%; }
+
+.briefcitJacket  { float:left; margin:5px 15px; width:80px; display:inline; }
+
 .leftLogo {
     width: 190px;
     padding: 5px;
 }
 
 
+.mainSearch #accessibleForm {
+    margin-bottom: 4em;
+}
+
 .rightLogo {
     position: absolute;
     width: 250px;
     right: 10px;
     top: 6px;
-}
-.patFuncArea {
-    width: 90%
-}
+}
+
+#syndetics { display: block; }
+
+/* Syndetics Plus */
+
+.syn_title {
+    color: #767C70;
+    font-weight: bold;
+    width: 13.5%;
+    text-align:right;
+    clear:both;
+    margin-right:.8em;
+}
+
+.syn_body {
+    width:70%;
+}
+
+.syn_title, .syn_body {
+    font-size: .9em;
+    float: left;
+    margin-top:.5em;
+}
+
+.syn_body p {
+    margin:0;
+}
+
+.patFuncArea {
+
+    width: 90%
+
+}
+
