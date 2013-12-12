@@ -20,7 +20,16 @@
     width: 250px;
     right: 10px;
     top: 24px;
-}
-.tipsTable {
-    margin-right:20px;
 }
+
+.tipsTable {
+
+    margin-right:20px;
+
+}
+
+#googlebooks { display: block; font-size:.9em; }
+
+#googlebooks img {margin-top:1em; }
+
+.googlebooks { display:none; }
