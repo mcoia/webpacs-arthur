@@ -150,7 +150,7 @@ ICON_SAVEALLPAGE=<span class="button"><img src="/screens/ico_multirequest.png" a
 ICON_SAVEALLPAGE4=<span class="button"><img src="/screens/ico_multirequest.png" alt=""><span class="buttonText">Click Here to Save Displayed Results</span></span>
 ICON_SAVEMARKED=<span class="button"><img src="/screens/ico_checkmark_16px.png" alt=""><span class="buttonText">Save Marked for Print/Email</span></span>
 IMAGE_MATTYPE-=/screens/media_book.gif
-IMAGE_MATTYPEa=/screens/media_book.gif
+IMAGE_MATTYPEa=/screens/media_bookPrint.gif
 IMAGE_MATTYPEb=/screens/media_archive.gif
 IMAGE_MATTYPEc=/screens/media_printedmusic.gif
 IMAGE_MATTYPEd=/screens/media_musicmanuscript.gif
@@ -163,6 +163,7 @@ IMAGE_MATTYPEj=/screens/media_musicalsound.gif
 IMAGE_MATTYPEk=/screens/media_photo.gif
 IMAGE_MATTYPEl=/screens/media_vinyldisc.gif
 IMAGE_MATTYPEm=/screens/media_computerfile.gif
+IMAGE_MATTYPEn=/screens/media_journalSerial.gif
 IMAGE_MATTYPEo=/screens/media_kit.gif
 IMAGE_MATTYPEp=/screens/media_mixed.gif
 IMAGE_MATTYPEq=/screens/media_dissertation.gif
@@ -170,6 +171,9 @@ IMAGE_MATTYPEr=/screens/media_3dartwork.gif
 IMAGE_MATTYPEs=/screens/media_compactdiscaudio.gif
 IMAGE_MATTYPEt=/screens/media_manuscript.gif
 IMAGE_MATTYPEu=/screens/media_hddvd.gif
+IMAGE_MATTYPEv=/screens/media_cdmusic.gif
+IMAGE_MATTYPEw=/screens/media_onlineResource.gif
+IMAGE_MATTYPEx=/screens/media_cassette.gif
 IMAGE_MATTYPE2=/screens/media_ebook.gif
 IMAGE_MATTYPE3=/screens/media_game.gif
 IMAGE_MATTYPE4=/screens/media_onlinevideo.gif
