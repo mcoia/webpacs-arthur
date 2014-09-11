@@ -156,6 +156,7 @@ IMAGE_MATTYPEc=/screens/media_printedmusic.gif
 IMAGE_MATTYPEd=/screens/media_musicmanuscript.gif
 IMAGE_MATTYPEe=/screens/media_map.gif
 IMAGE_MATTYPEf=/screens/media_dvd.gif
+IMAGE_MATTYPEg=/screens/media_microform.gif
 IMAGE_MATTYPEh=/screens/media_vhs.gif
 IMAGE_MATTYPEk=/screens/media_2dgraphic.gif
 IMAGE_MATTYPEl=/screens/media_vinyldisc.gif
