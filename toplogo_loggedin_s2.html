@@ -17,6 +17,7 @@ $(document).ready(function () {
     text = $('.ftlistHeader').text();
     listName = text.replace(/[^a-z0-9]/gmi, " ").replace(/[\d]{2,3}/m, " ").replace("entries", " ");
     namewoNum = $('.ftlistHeader').replaceWith("<th colSpan='3'>" + listName + "</th>");
+    }
 });
 </script>
 
