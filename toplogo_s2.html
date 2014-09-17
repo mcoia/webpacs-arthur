@@ -8,6 +8,15 @@
 $(document).ready(function () {
 	$("span:contains(WebPAC PRO)").hide(); //Hide the iii footer
 	linkQR();
+
+    //hides out of scope featured lists
+    var pathnameFtList = window.location.href.slice(window.location.href.indexOf('/') + 1).split('/')[3];
+    if(pathnameFtList.indexOf('ftlist') > -1){
+    $('.browseEntry:not(:contains("CC"))').addClass('hideMe');
+    $(".hideMe").hide();
+    text = $('.ftlistHeader').text();
+    listName = text.replace(/[^a-z0-9]/gmi, " ").replace(/[\d]{2,3}/m, " ").replace("entries", " ");
+    namewoNum = $('.ftlistHeader').replaceWith("<th colSpan='3'>" + listName + "</th>");
 });
 </script>
 
