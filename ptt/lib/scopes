@@ -193,7 +193,7 @@
 	    
 	#toplogo_above_banner
 	
-                logo = 'WW_logo_small.gif'
+                logo = 'WW_logo_small.png'
     }
 -%]
 [%- missouristate = {
