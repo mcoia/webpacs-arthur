@@ -10,7 +10,7 @@ function showsms() {
   try {
 
   var title = '';										// we'll save the title here
-  var debug = 0;										// enable this to show alerts
+  var debug = 1;										// enable this to show alerts
   var f = document.getElementById('bib_detail');
 
   try {													// we use try/catch blocks to hide errors 
