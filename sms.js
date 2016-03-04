@@ -54,8 +54,8 @@ function showsms() {
 	  //var callLinks = x[1].getElementsByTagName("a"); //get the call number without extras
 	  //var call = callLinks[0].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
 	  var call = x[1].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");	// get the call number + copies if any (remove tags)
-	  var status = x[2].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");	// get the status (remove tags)
-	  var note = x[3].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");	// get the note (remove tags)
+	  var note = x[2].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");	// get the status (remove tags)
+	  var status = x[3].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");	// get the note (remove tags)
 	  
 	  var chck = '';
 	  if (i == 1) chck = ' checked ';									// if we're on the first row, check it
