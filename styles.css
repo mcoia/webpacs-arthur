@@ -1213,8 +1213,5 @@ z-index:1000; background:#fff; padding:10px; margin:10px; background:#efefcf; }
 #info {top:500}
 #sms {font-size:70%}
 
-#smsbutton {
-  text-align:center;
-  display:none;
-}
+
 body > div#bibDisplayBody a#smsbutton { display:none; }
