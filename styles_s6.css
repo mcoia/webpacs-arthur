@@ -6,7 +6,7 @@
 
 .leftLogo {
     width: 190px;
-    padding: 5px;
+    padding: 12px;
 }
 
 
@@ -18,7 +18,7 @@
     position: absolute;
     width: 250px;
     right: 10px;
-    top: 6px;
+    top: 12px;
 }
 
 .patFuncArea {
@@ -27,3 +27,4 @@
 
 }
 
+#patButAR { display: none; }
