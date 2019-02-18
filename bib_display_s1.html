@@ -1,4 +1,11 @@
 <!--{toplogo}-->
+<script>
+$(document).ready(function () {
+        $("#scanHelpLink").click(function() {
+            $("#scanHelp").show();
+		});	
+    });
+</script>
 <!--{ifbibdisplay}-->
 <!--{xif}-->
 <!--{catedit}-->
@@ -79,6 +86,20 @@
 </div>
 </a>
 
+<div id="scanRequest">
+<span id="scanButton">
+<button type="button" onClick="window.open('https://goo.gl/forms/KT4JwdUdQv4fIujw2');">Request Scan &amp; Deliver</button>
+</span>
+<span id="scanHelpLink">
+<a href="#">What's this?</a>
+</span>
+<div id="scanHelp">
+<p>Scan & Deliver enables users to request electronic copies of book chapters and articles for materials held in the collections of Page Library. Requests are processed M-F, 8am-5pm. Please allow 2-3 business days for delivery.
+</p>
+</div>
+</div>
+
+
     <!-- a quick script to hide the SMS menu if there are no items. same as the javascript in the SMS form, but it's really just to see if the items exist.  If they don't, we hide the buttons -->
        <script>
        var f = document.getElementById('bib_detail');
@@ -95,6 +116,7 @@
         }
        } catch (e) {
          document.getElementById('smsfeatures').style.visibility='hidden';
+		 document.getElementById('scanRequest').style.visibility='hidden';
        }
 
     </script>

@@ -23,6 +23,12 @@
     top: 24px;
 }
 
+#scanButton { float:right; margin-top:-35px; }
+
+#scanHelp { display:none; }
+
+#scanHelpLink { float:right; margin-bottom: 10px; font-size: 10px; }
+
 #syndetics { display: block; }
 
 /* Syndetics Plus */
@@ -50,4 +56,3 @@
     margin:0;
 }
 
-#patButAR { display: none; }
