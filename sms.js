@@ -89,6 +89,13 @@ return false;
 
 
 function sendSMS(location) {
+	var title = encodeURIComponent(
+		$(".bibDisplayTitle td.bibInfoData")
+			.html()
+			.replace(/<\/?[^>]+(>|$)/g, "")
+			.replace(/\:.*$/g,'')
+			.substring(1,35).trim()
+	);
     var frm = document.sms_form;			// get the SMS form
 	var phone = frm.phone.value;			// get the phone #
 	phone = phone.replace(/[^\d]/ig,"");	// remove all non-digit characters
@@ -105,7 +112,8 @@ function sendSMS(location) {
 		if (frm.loc.length == undefined) {		// if just one, should not come to this
 			url += "&item="+encodeURIComponent(frm.loc.value);		
 		}
-
+		    url += "&title="+title; 	//get title
+		
 	var bodyRef = document.getElementsByTagName("body")[0]; //get the bib number out of the <body>, add it to the url
 	var bodyText = bodyRef.innerHTML;
 	var bibNum = bodyText.match(/b[\d]{7}/m);
