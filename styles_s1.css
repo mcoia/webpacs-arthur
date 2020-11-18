@@ -4,6 +4,8 @@
 
 .briefcitJacket  { float:left; margin:5px 15px; width:80px; display:inline; }
 
+.codeHelp { display:none; }
+
 .leftLogo {
     width: 109px;
     padding: 5px;
@@ -22,6 +24,12 @@
     right: 10px;
     top: 24px;
 }
+
+div .navigationRowRecord .buttonCenter { display: none; }
+
+div .requestDiv .button { display: none; }
+
+div .requestDiv { text-align: center; }
 
 #scanButton { float:right; margin-top:-35px; }
 

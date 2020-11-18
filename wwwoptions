@@ -82,7 +82,7 @@ XSTARTOVER=/search
 # Staff
 ICON_BUT_PUBLIC=<span class="button"><img src="/screens/ico_patron.png" alt=""><span class="buttonText">Patron View</span></span>
 ICON_BUT_STAFF=<span class="button"><img src="/screens/ico_gear.png" alt=""><span class="buttonText">Staff View</span></span>
-STAFF=1
+#STAFF=1
 STAFF_LOGGEDIN_MSG=<span class="loggedInMessage">You are logged into staff mode at %s as %s</span>
 
 # General and Phrase Searching
@@ -276,6 +276,7 @@ XRECTYPE=boi
 
 #Requesting
 #BIBREQUEST=true
+ICON_BUT_REQUEST1=<span class="buttonCenter"><img src="/screens/ico_target.gif" alt=""><span class="requestButton">Request This Title</span></span>
 ICON_BUT_REQUEST=<span class="button"><img src="/screens/ico_target.gif" alt=""><span class="buttonText">Request</span></span>
 ICON_BUT_REQUEST_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Available</span></span></div></div>
 ICON_BUT_REQUEST_MULTI=<span class="button"><img src="/screens/ico_target.gif" alt=""><span class="buttonText">Request Saved</span></span>
@@ -283,10 +284,10 @@ ICON_BUT_REQUEST_RESET=<div onmousedown="this.className='pressedState';" onmouse
 ICON_BUT_REQUEST_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Selected</span></span></div></div>
 ICON_REQUEST=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Request
 #REQFILLTIME=14|<br>Request available in approximately %d days|<br>Current estimated availability: approximately %d days|<br>This material may be immediately available
-REQUEST=Request|denyiflocalavail|ask|true
+REQUEST=Request|item|ask|true
 #REQUEST_ARTICLE_IFCHKIN=Y
 #REQUEST_INSTRUCTION=Please enter any special instructions: 
-REQUEST_MULTI=Request All Items in Book Cart|denyiflocalavail|ask|true
+REQUEST_MULTI=Request All Items in Book Cart|item|ask|true
 
 # Patron Record
 ICON_BUT_PAT_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel</span></span></div></div>
@@ -310,6 +311,16 @@ ICON_BUT_UPDATE_HOLDS=<div onmousedown="this.className='pressedState';" onmouseo
 ICON_BUT_UPDATE_HOLDS6=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Update Selected Items</span></span></div></div>
 CHANGE_HOLD_LOC=true
 FREEZE_HOLDS=true
+FREEZE_HOLDS_P80=false
+FREEZE_HOLDS_P81=false
+FREEZE_HOLDS_P82=false
+FREEZE_HOLDS_P83=false
+FREEZE_HOLDS_P84=false
+FREEZE_HOLDS_P85=false
+FREEZE_HOLDS_P86=false
+FREEZE_HOLDS_P87=false
+FREEZE_HOLDS_P88=false
+FREEZE_HOLDS_P89=false
 ICON_CLOSEWINDOW=<span class="button"><img src="/screens/ico_x.png" alt=""><span class="buttonText">Close Window</span></span>
 ICON_PAT_CANCELALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel All</span></span></div></div>
 ICON_PAT_CANCELMARK=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel Selected</span></span></div></div>

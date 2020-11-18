@@ -1,0 +1,11 @@
+#banner {
+	border-bottom: 2px solid;
+    }
+#banner img { display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 350px;
+ }
+div .encoreLogo { display: none; }
+
+div .footerColumn3 { display: none; }
