@@ -14,6 +14,12 @@
     margin-bottom: 4em;
 }
 
+div .navigationRowRecord .buttonCenter { display: none; }
+
+div .requestDiv .button { display: none; }
+
+div .requestDiv { text-align: center; padding-top: 20px; padding-right: 100px; padding-bottom: 50px; }
+
 .rightLogo {
     position: absolute;
     width: 250px;
@@ -28,3 +34,7 @@
 }
 
 #patButAR { display: none; }
+
+
+
+#syndetics { display: block; }

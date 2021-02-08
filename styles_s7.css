@@ -14,3 +14,11 @@
     width: 90%
 }
 #patButAR { display: none; }
+
+div .navigationRowRecord .buttonCenter { display: none; }
+
+div .requestDiv .button { display: none; }
+
+div .requestDiv { text-align: center; padding-top: 20px; padding-right: 100px; padding-bottom: 50px; }
+
+#syndetics { display: block; }

@@ -23,6 +23,9 @@
 <div class="bibClear"></div>
 
 <div class="bibDisplayJacket">
+<div id="syndetics">
+<div id="syn_sc"></div>
+</div>
 <div class="bibMedia">
 <!--{media}-->
 </div>
@@ -37,12 +40,6 @@
 </h1>
 
 <!--{recordinfo:pRe}-->
-
-<!--{ifhaspatrate}-->
-<div class="bibDisplayRatings">
-<!--{ratings}-->
-</div>
-<!--{xif}-->
 
 <!--{booking}-->
 <!--{holdingslink}-->
@@ -67,38 +64,11 @@
 <div class="bibDisplayItemsMain">
 <!--{items}-->
 
-<a href="#here" name=smsbutton id=smsbutton onClick="showsms();return false;">
-<div id="smsfeatures" class="resourceButton">
-    <span class="button">
-    <img src="/screens/ico_phone.gif">
-        <span class="buttonText">Text call number</span>
-    </span>
+<div class="requestDiv">
+<!--{navrow}-->
 </div>
-</a>
 
-    <!-- a quick script to hide the SMS menu if there are no items. same as the javascript in the SMS form, but it's really just to see if the items exist.  If they don't, we hide the buttons -->
-       <script>
-       var f = document.getElementById('bib_detail');
-       try { 
-        var itms = document.getElementById('bib_items');
-        var tr = itms.getElementsByTagName('TR');
-        for(i = 1; i < tr.length; i++) {
-         var x=tr[i].getElementsByTagName('TD');
-         if (x.length == 3) {
-          var loc = x[0].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
-          var call = x[1].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
-          var status = x[2].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
-         }
-        }
-       } catch (e) {
-         document.getElementById('smsfeatures').style.visibility='hidden';
-       }
 
-    </script>
-       
-    <!-- just a placeholder for the sms form -->
-    <div id='sms' style="visibility:hidden;display:none">
-    </div>
 
 </div>
 </div>
@@ -107,6 +77,7 @@
 
 <div class="bibDisplayContentMore">
 <!--{recordinfo:#}-->
+
 </div>
 
 
@@ -119,13 +90,11 @@
 </div>
 <!--{xif}-->
 
-<div class="bibDisplayContentMore bibDisplayReviews">
+
 <div class="bibDisplayPermLink actionButtonArea">
 <!--{recordlink}-->
 </div>
-<!--{patronreviewsfull}-->
 
-</div>
 
 </div>
 
@@ -133,5 +102,6 @@
 </div><!-- close bibDisplayContent -->
 <div class="clear"></div>
 </div><!-- close bibDisplayBody -->
+<script src="https://plus.syndetics.com/widget.php?id=PQCST-127518" type="text/javascript"></script>
 
 <!--{botlogo}-->

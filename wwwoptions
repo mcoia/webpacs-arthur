@@ -90,7 +90,6 @@ ICON_BUT_ANOTHER=<span class="button"><img src="/screens/ico_magnifyingglass.png
 ICON_BUT_NEWSRCH=New Search
 ICON_BUT_WORDSRCH=<span class="button"><img src="/screens/ico_magnifyingglass.png" alt=""><span class="buttonText">Search as Words</span></span>
 DROP_DOWN=Xatdc
-FRAMEURL=0
 IBROWSE_MAX=10000
 KEYWORD_COLOR=Y|all|red
 MULT_LIMITS=true
@@ -277,6 +276,8 @@ XRECTYPE=boi
 #Requesting
 #BIBREQUEST=true
 ICON_BUT_REQUEST1=<span class="buttonCenter"><img src="/screens/ico_target.gif" alt=""><span class="requestButton">Request This Title</span></span>
+ICON_BUT_REQUEST6=<span class="buttonCenter"><img src="/screens/ico_target.gif" alt=""><span class="requestButton">Request This Title</span></span>
+ICON_BUT_REQUEST7=<span class="buttonCenter"><img src="/screens/ico_target.gif" alt=""><span class="requestButton">Request This Title</span></span>
 ICON_BUT_REQUEST=<span class="button"><img src="/screens/ico_target.gif" alt=""><span class="buttonText">Request</span></span>
 ICON_BUT_REQUEST_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Available</span></span></div></div>
 ICON_BUT_REQUEST_MULTI=<span class="button"><img src="/screens/ico_target.gif" alt=""><span class="buttonText">Request Saved</span></span>
