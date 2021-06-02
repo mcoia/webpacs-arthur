@@ -2,7 +2,14 @@
 <!--{ifbibdisplay}-->
 <!--{xif}-->
 <!--{catedit}-->
+<script>
+$(document).ready(function() {
+  if ($(".bibDisplayItemsMain:contains('Media')").length) {
+    $("#scanRequest").hide();
+	}
+ });
 
+</script>
 <div id="bibDisplayBody">
 <div class="navigationRowRecord">
 <!--{navrow}-->
@@ -67,9 +74,28 @@
 <div class="requestDiv">
 <!--{navrow}-->
 </div>
+<div id="scanRequest">
+<span class="buttonCenter"><img src="/screens/envelope.png" alt=""><span class="scanButton"><a href="https://mostate.libwizard.com/f/scan" target="blank">Request Scan & Deliver</a></span></span>
+</div>
+ <script>
+       var f = document.getElementById('bib_detail');
+       try { 
+        var itms = document.getElementById('bib_items');
+        var tr = itms.getElementsByTagName('TR');
+        for(i = 1; i < tr.length; i++) {
+         var x=tr[i].getElementsByTagName('TD');
+         if (x.length == 3) {
+          var loc = x[0].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+          var call = x[1].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+          var status = x[2].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+         }
+        }
+       } catch (e) {
+        document.getElementById('scanRequest').style.visibility='hidden';
+       }
 
-
-
+    </script>
+ 
 </div>
 </div>
 

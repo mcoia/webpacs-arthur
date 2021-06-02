@@ -18,7 +18,11 @@ div .navigationRowRecord .buttonCenter { display: none; }
 
 div .requestDiv .button { display: none; }
 
-div .requestDiv { text-align: center; padding-top: 20px; padding-right: 100px; padding-bottom: 50px; }
+div .requestDiv { text-align: center; padding-top: 20px; padding-right: 100px; padding-bottom: 20px; }
+
+div #scanRequest { text-align: center; padding-right: 100px; padding-bottom: 10px; }
+
+#scanRequest img { max-height: 19px; padding-right: 1px; }
 
 .rightLogo {
     position: absolute;
