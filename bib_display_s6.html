@@ -7,9 +7,12 @@ $(document).ready(function() {
   if ($(".bibDisplayItemsMain:contains('Media')").length) {
     $("#scanRequest").hide();
 	}
+    if ($(".bibDisplayItemsMain:contains('MO GOV ONLY')").length) {
+    $("#scanRequest").hide();
+	}
  });
-
 </script>
+
 <div id="bibDisplayBody">
 <div class="navigationRowRecord">
 <!--{navrow}-->
@@ -76,8 +79,9 @@ $(document).ready(function() {
 </div>
 
 <div id="scanRequest">
-<span class="buttonCenter"><img src="/screens/envelope.png" alt=""><span class="scanButton"><a href="https://mostate.libwizard.com/f/scan" target="blank">Request Scan & Deliver</a></span></span>
+<span class="buttonCenter"><img src="/screens/envelope.png" alt=""><span class="scanButton"><a href="https://mostate.libwizard.com/f/scan" target="blank">Request a Scan</a></span></span>
 </div>
+
  <script>
        var f = document.getElementById('bib_detail');
        try { 
@@ -97,9 +101,9 @@ $(document).ready(function() {
 
     </script>
  
+</div>
+</div>
 
-</div>
-</div>
 
 <!--{orders}-->
 

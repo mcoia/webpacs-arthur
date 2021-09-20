@@ -1,28 +1,46 @@
+.bibDisplayJacket  { float:left; margin:0 0 1em 5%; display:inline; width:6em; }
+
+.briefcitDetail, .briefcitAuthDetail  { display:inline; float:left; padding:0px 0 0px 30px; width:65%; }
+
+.briefcitJacket  { float:left; margin:5px 15px; width:80px; display:inline; }
+
 .leftLogo {
-    width: 72px;
-    padding: 5px;
+    width: 190px;
+    padding: 12px;
 }
 
 
-.rightLogo {
-    position: absolute;
-    width: 250px;
-    right: 10px;
-    top: 6px;
-}
-.patFuncArea {
-    width: 90%
-}
-#patButAR { display: none; }
+.mainSearch #accessibleForm {
+    margin-bottom: 4em;
+}
 
 div .navigationRowRecord .buttonCenter { display: none; }
 
 div .requestDiv .button { display: none; }
 
-div .requestDiv { text-align: center; padding-top: 20px; padding-right: 100px; padding-bottom: 20px; }
+div .requestDiv .requestButton { padding-left: 5px; }
 
-div #scanRequest { text-align: center; padding-right: 100px; padding-bottom: 10px; }
+div .requestDiv { text-align: center; padding-top: 20px; padding-bottom: 10px; }
 
-#scanRequest img { max-height: 19px; padding-right: 1px; }
+div #scanRequest { text-align: center; padding-right: 42px; padding-bottom: 10px; }
+
+#scanRequest img { max-height: 19px; padding-right: 8px; }
+
+.rightLogo {
+    position: absolute;
+    width: 250px;
+    right: 10px;
+    top: 12px;
+}
+
+.patFuncArea {
+
+    width: 90%
+
+}
+
+#patButAR { display: none; }
+
+
 
 #syndetics { display: block; }

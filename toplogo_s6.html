@@ -22,7 +22,7 @@ $(document).ready(function () {
 	$('#b option:not([value^="m"])').detach(); 
 	selectAny.prependTo("#b")
 	//Hides the out-of-scope locations
-});
+
 $(document).ready(function () {
 	//hides out of scope featured lists
 	var pathnameFtList = window.location.href.slice(window.location.href.indexOf('/') + 1).split('/')[3];
@@ -33,10 +33,8 @@ $(document).ready(function () {
 		listName = text.replace(/[^a-z0-9]/gmi, " ").replace(/[\d]{1,2}/m, " ").replace("entries", " ");
 		namewoNum = $('.ftlistHeader').replaceWith("<th colSpan='3'>" + listName + "</th>");
 	}
-	});
-
 });
-
+});
 
 </script>
 

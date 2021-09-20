@@ -18,11 +18,13 @@ div .navigationRowRecord .buttonCenter { display: none; }
 
 div .requestDiv .button { display: none; }
 
-div .requestDiv { text-align: center; padding-top: 20px; padding-right: 100px; padding-bottom: 20px; }
+div .requestDiv .requestButton { padding-left: 5px; }
 
-div #scanRequest { text-align: center; padding-right: 100px; padding-bottom: 10px; }
+div .requestDiv { text-align: center; padding-top: 20px; padding-bottom: 10px; }
 
-#scanRequest img { max-height: 19px; padding-right: 1px; }
+div #scanRequest { text-align: center; padding-right: 42px; padding-bottom: 10px; }
+
+#scanRequest img { max-height: 19px; padding-right: 8px; }
 
 .rightLogo {
     position: absolute;
