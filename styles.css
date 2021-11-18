@@ -999,6 +999,10 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 .rssChannelTitle { margin: 0.5em 20px 0.3em; clear:both; display:block;}
 
+div #scanRequest { text-align: center; padding-right: 42px; padding-bottom: 10px; }
+
+#scanRequest img { max-height: 19px; padding-right: 8px; }
+
 #searcharg { }
 
 #searchOptions {
