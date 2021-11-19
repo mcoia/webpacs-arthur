@@ -22,9 +22,9 @@ div .requestDiv .requestButton { padding-left: 5px; }
 
 div .requestDiv { text-align: center; padding-top: 20px; padding-bottom: 10px; }
 
-div #scanRequest { text-align: center; padding-right: 42px; padding-bottom: 10px; }
+div #scanRequest { display: block; text-align: center; padding-right: 42px; padding-bottom: 10px; }
 
-#scanRequest img { max-height: 19px; padding-right: 8px; }
+#scanRequest img { display: inherit; max-height: 19px; padding-right: 8px; }
 
 .rightLogo {
     position: absolute;
