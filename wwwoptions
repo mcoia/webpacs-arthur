@@ -472,7 +472,7 @@ TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
 # Featured Lists
 ICON_BUT_PREVSCRN=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Back</span></span>
 ICON_BUT_RET2FEAT=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Back</span></span>
-FEATURED_LIST=17,21,25,45,48,54,56,64,82,96,97,107,109,138,201,203,204,210,211,209,213,217,216,218,214,215,212,219,220,221,223,224|Selected Titles|# of Titles
+FEATURED_LIST=201,203,204,210,211,209,213,217,216,218,214,215,212,219,21,17,25,45,48,54,56,64,82,96,107,109,138,220,221,223,224,79,302|Selected Titles||# of Titles
 
 
 # Content Linking and Other Resources
