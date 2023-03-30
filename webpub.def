@@ -11,9 +11,9 @@
 #
 # converted from HOLDINGS_POS field tag: 'a'
 #
-b|a|110|-6|Corporate Author||b|
-b|a|111|-6|Meeting Name||b|
-b|a||-6|Author||b|
+b|a|110|-06|Corporate Author||b|
+b|a|111|-06|Meeting Name||b|
+b|a||-06|Author||b|
 #
 # converted from HOLDINGS_POS field tag: 't'
 #
@@ -49,10 +49,10 @@ b|r|337||||b|
 b|r|338||||b|
 b|r|350|-6|||b|
 b|r|362|-6|Publication History||b|
-b|r||-6|Descript.||b|
+b|r||-06|Descript.||b|
 b|s|440.0|-6|Series||b|
 b|s|490.1|-6|Added Title||b|
-b|s||-6|Series||b|
+b|s||-06|Series||b|
 b|n|504|-z6|Bibliography||b|
 # 080220 added 1st indicator 0 below lee
 b|n|505..|-z6|Contents||b|
@@ -72,29 +72,29 @@ b|n|5218|-z6|Audience||b|
 b|n|555[^0]|-z6|Indexes||b|
 b|n|59[0-9]|-z6|Local Note||b|
 b|n||-z6|Note||b|
-b|x|7801|-6|||b|
-b|x|780.0|-6|Continues||b
-b|x|780.1|-6|Continues In Part||b|
-b|x|780.2|-6|Supersedes||b|
-b|x|780.3|-6|Supersedes In Part||b|
-b|x|780.4|-6|Union Of||b|
-b|x|780.5|-6|Absorbed||b|
-b|x|780.6|-6|Absorbed In Part||b|
-b|x|780.7|-6|Split From||b|
-b|x||-6|Continues||b|
-b|z|785.0|-6|Continued By||b|
-b|z|785.1|-6|Continued In Part||b|
-b|z|785.2|-6|Superseded By||b|
-b|z|785.3|-6|Superseded In Part||b|
-b|z|785.4|-6|Absorbed By||b|
-b|z|785.5|-6|Absorbed In Part||b|
-b|z|785.6|-6|Split Into||b|
-b|z|785.7|-6|Merged With ||b|
-b|z|785.8|-6|Changed Back||b
-b|z||-6|Cont'd By||b|
-b|q||-6w|Related To||b|
-b|q|773|-7|Related To||b|
-b|q|776.8||||b
+b|x|7801|-06|||b|
+b|x|780.0|-06|Continues||b
+b|x|780.1|-06|Continues In Part||b|
+b|x|780.2|-06|Supersedes||b|
+b|x|780.3|-06|Supersedes In Part||b|
+b|x|780.4|-06|Union Of||b|
+b|x|780.5|-06|Absorbed||b|
+b|x|780.6|-06|Absorbed In Part||b|
+b|x|780.7|-06|Split From||b|
+b|x||-06|Continues||b|
+b|z|785.0|-06|Continued By||b|
+b|z|785.1|-06|Continued In Part||b|
+b|z|785.2|-06|Superseded By||b|
+b|z|785.3|-06|Superseded In Part||b|
+b|z|785.4|-06|Absorbed By||b|
+b|z|785.5|-06|Absorbed In Part||b|
+b|z|785.6|-06|Split Into||b|
+b|z|785.7|-06|Merged With ||b|
+b|z|785.8|-06|Changed Back||b
+b|z||-06|Cont'd By||b|
+b|q||-06w|Related To||b|
+b|q|773|-07|Related To||b|
+b|q|776.8|-0|||b
 b|d|600.0|-26|Subjects||b|
 b|d|610.0|-26|Subjects||b|
 b|d|611.0|-26|Subjects||b|
@@ -109,10 +109,10 @@ b|j|650.7|-20|Added Keyword||b|
 b|j|651.7|-20|Added Keyword||b|
 b|j|655.7|-20|Added Keyword||b|
 b|j|690|-26|Added Keyword||b|
-b|b|700|-6|Added Author||b|
-b|b|710|-6|Added Author||b|
-b|b|711|-6|Added Author||b|
-b|b||-6|Add Author||b|
+b|b|700|-06|Added Author||b|
+b|b|710|-06|Added Author||b|
+b|b|711|-06|Added Author||b|
+b|b||-06|Add Author||b|
 b|u|130|-6|Uniform Title||b|
 b|u|210|-6|Other Title||b|
 b|u|211|-6|Other Title||b|
